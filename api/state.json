@@ -1,0 +1,4165 @@
+{
+  "state": {
+    "projectTitle": "Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)",
+    "projectSlug": "misteri-lupa-di-depan-pintu",
+    "activeRunId": "run_1795600412511",
+    "isBusy": false,
+    "dryRun": true,
+    "lastError": null,
+    "startedAt": "2026-11-25T09:53:32.511Z",
+    "finishedAt": "2026-11-25T10:19:55.975Z",
+    "agents": {
+      "researcher": {
+        "id": "researcher",
+        "order": 1,
+        "name": "Raka (Agent Riset)",
+        "roleTitle": "Riset Topik Viral & Cerita Ringan",
+        "deskName": "Meja 01 · Riset Tren",
+        "description": "Mencari & menilai ide cerita ringan sehari-hari berpotensi viral sebelum dikirim ke Penulis Cerita.",
+        "artifactPath": "output/studio/01_research.json",
+        "status": "done",
+        "currentTask": "Brief viral terkirim ke Penulis Cerita",
+        "summary": "Topik #1: \"Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)\" (skor 96/100) · 2 kandidat lain dievaluasi",
+        "durationMs": 9618,
+        "updatedAt": "2026-11-25T09:53:42.155Z",
+        "revisions": [
+          {
+            "timestamp": "2026-11-24T10:15:21.666Z",
+            "note": "Buat cerita yang benar-benar fresh, seru, ringan, dan jangan sama dengan cerita sebelumnya!"
+          },
+          {
+            "timestamp": "2026-11-25T09:53:32.527Z",
+            "note": "Pilih topik rahasia/fungsi benda fisik sehari-hari yang SEGAR & BELUM PERNAH DIBAHAS (jangan panci, roti, helm, telur, botol dingin, microwave, rice cooker, atau sensor sinyal HP!), berlangsung konsisten di SATU ruangan dalam ruang (mis. kosan, ruang_tamu, kantor, kafe_warkop, atau bengkel), punya bagian/lubang/mekanisme kecil unik di benda fisiknya yang sangat seru diperagakan secara 3D Macro Close-Up dan 3D Cutaway!"
+          }
+        ],
+        "revisionNote": "Pilih topik rahasia/fungsi benda fisik sehari-hari yang SEGAR & BELUM PERNAH DIBAHAS (jangan panci, roti, helm, telur, botol dingin, microwave, rice cooker, atau sensor sinyal HP!), berlangsung konsisten di SATU ruangan dalam ruang (mis. kosan, ruang_tamu, kantor, kafe_warkop, atau bengkel), punya bagian/lubang/mekanisme kecil unik di benda fisiknya yang sangat seru diperagakan secara 3D Macro Close-Up dan 3D Cutaway!"
+      },
+      "writer": {
+        "id": "writer",
+        "order": 2,
+        "name": "Senja (Penulis Cerita)",
+        "roleTitle": "Penulis Naskah Cerpen Komedi & Sains",
+        "deskName": "Meja 02 · Ruang Naskah",
+        "description": "Mengolah riset menjadi cerita mini-movie 5 babak berkarakter jelas, kalimat lisan lincah, & emosi vokal.",
+        "artifactPath": "output/studio/02_script.json",
+        "status": "done",
+        "currentTask": "Naskah terkirim ke Bima (Sutradara 3D)",
+        "summary": "\"Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)\" · 10 adegan · 106 kata · Cast: Dito & Sari",
+        "durationMs": 4470,
+        "updatedAt": "2026-11-25T09:53:46.640Z",
+        "revisions": [
+          {
+            "timestamp": "2026-11-24T10:16:57.712Z",
+            "note": "Buat cerita yang benar-benar fresh, seru, ringan, dan jangan sama dengan cerita sebelumnya!"
+          },
+          {
+            "timestamp": "2026-11-24T19:42:31.008Z",
+            "note": "Susun cerita komedi seru 5 babak (2-3 adegan per babak) sesuai topik terpilih dari Raka"
+          }
+        ]
+      },
+      "director": {
+        "id": "director",
+        "order": 3,
+        "name": "Bima (Sutradara 3D)",
+        "roleTitle": "Sutradara Adegan & Koreografer",
+        "deskName": "Meja 03 · Panggung 3D",
+        "description": "Mengatur lokasi 3D logis, kamera eye-level, postur karakter, gerak tangan 1-to-1, dan kebutuhan visual.",
+        "artifactPath": "output/studio/03_direction.json",
+        "status": "done",
+        "currentTask": "Koreografi siap · Menyerahkan daftar kebutuhan visual ke Kirana",
+        "summary": "10 adegan terkoreografi · Lokasi: kosan -> ruang_tamu · 10 request visual ke Animator",
+        "durationMs": 6393,
+        "updatedAt": "2026-11-25T09:53:53.044Z",
+        "revisions": [
+          {
+            "timestamp": "2026-11-24T09:21:32.733Z",
+            "note": "Di halte Reni berdiri memegang helm tanpa naik motor, tampilkan Bima dan Reni berdua saat Bima mengoleskan sabun ke helm Reni, dan gunakan variasi lokasi/shot yang bersih"
+          },
+          {
+            "timestamp": "2026-11-24T10:50:12.243Z",
+            "note": "Pastikan Sinta tampil menggunakan karakter perempuan (mbak_hijab) dan Galih menggunakan karakter laki-laki (mahasiswa) secara konsisten di semua adegan"
+          }
+        ]
+      },
+      "visual_analyst": {
+        "id": "visual_analyst",
+        "order": 4,
+        "name": "Nadia (Analis Breakdown Visual)",
+        "roleTitle": "Analis Naskah, Kebutuhan Objek & Zona Aman Visual",
+        "deskName": "Meja 04 · Meja Bedah Naskah Visual",
+        "description": "Membaca naskah secara teliti kata demi kata, mendata objek/aksi yang wajib digambar, dan menghitung koordinat zona aman agar visual tidak salah letak.",
+        "artifactPath": "output/studio/04_visual_breakdown.json",
+        "status": "done",
+        "currentTask": "Laporan breakdown visual diserahkan ke Kirana (Animator)",
+        "summary": "6/10 adegan wajib dibuatkan visual baru (lengkap dengan koordinat zona aman -> dikirim ke Kirana)",
+        "durationMs": 3818,
+        "updatedAt": "2026-11-25T09:53:56.886Z",
+        "revisions": [
+          {
+            "timestamp": "2026-11-24T14:13:07.635Z",
+            "note": "Pastikan label singkat selalu kata utuh (tidak terpotong), gambar ilustrasi objek besar berlapis kontras tajam, isi beforeLabel dan afterLabel spesifik pada banding_dua, dan rekam suara narator mulus natural manusia"
+          },
+          {
+            "timestamp": "2026-11-24T14:24:23.323Z",
+            "note": "Pastikan label singkat selalu kata utuh tidak terpotong, gambar ilustrasi objek besar berlapis kontras tajam, isi beforeLabel dan afterLabel spesifik pada banding_dua, dan rekam suara narator mulus natural manusia"
+          },
+          {
+            "timestamp": "2026-11-24T14:35:23.111Z",
+            "note": "Pastikan semua label kata utuh tidak terpotong, kartu showcase tegak rapi di zona aman, isi beforeLabel dan afterLabel spesifik pada banding_dua, dan rekam suara narator mulus natural manusia"
+          }
+        ]
+      },
+      "animator": {
+        "id": "animator",
+        "order": 5,
+        "name": "Kirana (Animator Visual)",
+        "roleTitle": "Pembuat Visual Baru & Rig Aksi",
+        "deskName": "Meja 05 · Studio Vektor & Rig",
+        "description": "Menerima laporan breakdown Nadia lalu membangun ilustrasi vektor cel-shaded & Action Rig presisi di zona aman.",
+        "artifactPath": "output/studio/05_visuals.json",
+        "status": "done",
+        "currentTask": "Aset visual baru siap · Mengirim ke Narator & QC",
+        "summary": "2/10 adegan diberi visual baru (2 Action Rig + vektor SVG animasi)",
+        "durationMs": 32091,
+        "updatedAt": "2026-11-25T09:54:28.992Z",
+        "revisions": []
+      },
+      "narrator": {
+        "id": "narrator",
+        "order": 6,
+        "name": "Arga (Narator Natural)",
+        "roleTitle": "Pencerita Manusia Natural & Audio Studio",
+        "deskName": "Meja 06 · Bilik Rekaman",
+        "description": "Menyampaikan cerita dengan intonasi natural layaknya manusia bercerita santai, artikulasi hangat, & sinkronisasi WAV per adegan.",
+        "artifactPath": "output/studio/06_audio.json",
+        "status": "done",
+        "currentTask": "Audio & timeline sinkron terkirim ke Damar (Supervisor QC)",
+        "summary": "Audio 43.00s (1290 frames · 5 babak ekspresif · Gemini TTS)",
+        "durationMs": 17716,
+        "updatedAt": "2026-11-25T09:54:46.779Z",
+        "revisions": [
+          {
+            "timestamp": "2026-11-24T20:00:06.292Z",
+            "note": "Bacakan mulus natural layaknya manusia bercerita hangat dengan artikulasi jernih tanpa tawa atau desahan di sela babak"
+          }
+        ]
+      },
+      "qa_render": {
+        "id": "qa_render",
+        "order": 7,
+        "name": "Damar (Supervisor QC & Subtitle Sync)",
+        "roleTitle": "Penyelaras Subtitle WAV Presisi, Tata Letak & Render MP4",
+        "deskName": "Meja 07 · Sinkron Subtitle & QC",
+        "description": "Mengaudit kesesuaian narasi-visual & posisi aman tiap adegan, merender video final 9:16, dan mengekstrak seluruh galeri frame.",
+        "artifactPath": "output/studio/07_qa_render.json",
+        "status": "done",
+        "currentTask": "Video final 9:16 & galeri frame siap ditinjau di Kantor AI",
+        "summary": "Render MP4 lulus (43.01s · 17.42 MB) · 10 frame diekstrak · 1 auto-fix",
+        "durationMs": 324801,
+        "updatedAt": "2026-11-25T10:19:55.949Z",
+        "revisions": [
+          {
+            "timestamp": "2026-11-24T17:09:54.679Z",
+            "note": "Audit 1-to-1, terapkan perbaikan zona aman dan label utuh, lalu render MP4 9:16 serta galeri 11 frame"
+          },
+          {
+            "timestamp": "2026-11-24T20:39:10.845Z",
+            "note": "Kunci presisi setiap potongan subtitle ke awal dan akhir gelombang suara WAV memakai Viterbi Acoustic Alignment agar tidak pernah telat"
+          },
+          {
+            "timestamp": "2026-11-24T22:16:21.085Z",
+            "note": "Render adegan 3D penuh dengan kompor, panci, tutup kaca berlubang, kerak, cobek batu, sumpit, kamera macro, dan 3D cutaway edukasi"
+          },
+          {
+            "timestamp": "2026-11-24T22:28:55.293Z",
+            "note": "Finalisasi audit 3D: sc_1 over_counter Kiki panik, cobek batu menempel pas di tutup panci, framing 2 tokoh penuh, kaca bening bersih"
+          },
+          {
+            "timestamp": "2026-11-25T10:06:15.586Z",
+            "note": "Render cerita 3D baru Doorway Effect lengkap dengan pintu 3D, HP dialer macro, setrika beruap 3D, dan laptop browser cutaway 3D"
+          },
+          {
+            "timestamp": "2026-11-25T10:14:31.155Z",
+            "note": "Finalisasi ayunan daun pintu kayu 3D & gagang kuningan ke arah +Z serta pose jempol Dito sebelum upload publik"
+          }
+        ],
+        "revisionNote": "Finalisasi ayunan daun pintu kayu 3D & gagang kuningan ke arah +Z serta pose jempol Dito sebelum upload publik"
+      }
+    },
+    "logs": [
+      {
+        "timestamp": "2026-11-24T19:44:56.064Z",
+        "agent": "visual_analyst",
+        "level": "INFO",
+        "message": "Nadia meneliti setiap kalimat naskah dan menghitung zona aman visual untuk Kirana..."
+      },
+      {
+        "timestamp": "2026-11-24T19:45:06.788Z",
+        "agent": "visual_analyst",
+        "level": "INFO",
+        "message": "8/10 adegan wajib dibuatkan visual baru (lengkap dengan koordinat zona aman -> dikirim ke Kirana)"
+      },
+      {
+        "timestamp": "2026-11-24T19:45:06.812Z",
+        "agent": "animator",
+        "level": "INFO",
+        "message": "Kirana membangun aset visual baru di koordinat zona aman berdasarkan breakdown Nadia..."
+      },
+      {
+        "timestamp": "2026-11-24T19:46:01.954Z",
+        "agent": "animator",
+        "level": "INFO",
+        "message": "7/10 adegan diberi visual baru (7 Action Rig + vektor SVG animasi)"
+      },
+      {
+        "timestamp": "2026-11-24T19:46:01.977Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Arga masuk bilik rekaman untuk sulih suara ekspresif multi-emosi..."
+      },
+      {
+        "timestamp": "2026-11-24T19:46:01.987Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak1_pembuka (babak1_pembuka) -> emosi \"hook_penasaran\": Natural, curious Indonesian human voice sharing an intriguing real-life ..."
+      },
+      {
+        "timestamp": "2026-11-24T19:46:02.001Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak2_konflik (babak2_konflik) -> emosi \"kocak_frustrasi\": Relatable, amused Indonesian human storyteller recounting a funny everyd..."
+      },
+      {
+        "timestamp": "2026-11-24T19:46:02.010Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak3_titik_balik (babak3_titik_balik) -> emosi \"kaget_heboh\": Spontaneous, genuinely surprised Indonesian human storyteller reacting n..."
+      },
+      {
+        "timestamp": "2026-11-24T19:46:02.025Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak4_terungkap (babak4_terungkap) -> emosi \"aha_antusias\": Warm, clear, engaging Indonesian friend having a lightbulb moment and ex..."
+      },
+      {
+        "timestamp": "2026-11-24T19:46:02.034Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak5_penutup (babak5_penutup) -> emosi \"punchline_ngakak\": Relaxed, genuinely amused Indonesian storyteller landing a funny everyda..."
+      },
+      {
+        "timestamp": "2026-11-24T19:46:22.628Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Audio 55.76s (1673 frames · 5 babak ekspresif · Gemini TTS)"
+      },
+      {
+        "timestamp": "2026-11-24T19:46:22.671Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Damar memulai audit kesesuaian 1-to-1 naskah <-> visual sebelum render MP4..."
+      },
+      {
+        "timestamp": "2026-11-24T19:46:22.716Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "QC auto-fix diterapkan (1 item): sc_6: sweat -> true"
+      },
+      {
+        "timestamp": "2026-11-24T19:52:46.429Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Render MP4 lulus (55.79s · 19.59 MB) · 10 frame diekstrak · 1 auto-fix"
+      },
+      {
+        "timestamp": "2026-11-24T19:52:46.455Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi agent [writer] selesai diterapkan."
+      },
+      {
+        "timestamp": "2026-11-24T20:00:06.279Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi terarah pada [narrator] (cascade=ya): \"Bacakan mulus natural layaknya manusia bercerita hangat dengan artikulasi jernih tanpa tawa atau desahan di sela babak\""
+      },
+      {
+        "timestamp": "2026-11-24T20:00:06.304Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Revisi sulih suara diminta: Bacakan mulus natural layaknya manusia bercerita hangat dengan artikulasi jernih tanpa tawa atau desahan di sela babak"
+      },
+      {
+        "timestamp": "2026-11-24T20:00:06.322Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak1_pembuka (babak1_pembuka) -> emosi \"hook_penasaran\": Natural, curious Indonesian human voice sharing an intriguing real-life ..."
+      },
+      {
+        "timestamp": "2026-11-24T20:00:06.330Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak2_konflik (babak2_konflik) -> emosi \"kocak_frustrasi\": Expressive, relatable Indonesian human storyteller recounting a hectic e..."
+      },
+      {
+        "timestamp": "2026-11-24T20:00:06.348Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak3_titik_balik (babak3_titik_balik) -> emosi \"kaget_heboh\": Spontaneous, genuinely surprised Indonesian human storyteller reacting n..."
+      },
+      {
+        "timestamp": "2026-11-24T20:00:06.366Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak4_terungkap (babak4_terungkap) -> emosi \"aha_antusias\": Warm, clear, engaging Indonesian friend explaining an everyday insight s..."
+      },
+      {
+        "timestamp": "2026-11-24T20:00:06.372Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak babak5_penutup (babak5_penutup) -> emosi \"punchline_ngakak\": Warm, upbeat Indonesian storyteller delivering a clever everyday ending ..."
+      },
+      {
+        "timestamp": "2026-11-24T20:00:26.632Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Audio 54.56s (1637 frames · 5 babak ekspresif · Gemini TTS)"
+      },
+      {
+        "timestamp": "2026-11-24T20:00:26.780Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Damar memulai audit kesesuaian 1-to-1 naskah <-> visual sebelum render MP4..."
+      },
+      {
+        "timestamp": "2026-11-24T20:00:26.860Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Audit QC 1-to-1 lulus bersih tanpa koreksi paksa."
+      },
+      {
+        "timestamp": "2026-11-24T20:07:28.572Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Render MP4 lulus (54.57s · 20.02 MB) · 10 frame diekstrak · 0 auto-fix"
+      },
+      {
+        "timestamp": "2026-11-24T20:07:28.598Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi agent [narrator] selesai diterapkan."
+      },
+      {
+        "timestamp": "2026-11-24T20:11:03.271Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Memulai upload publik video \"Kenapa Tutup Panci Ada Lubang Kecil? Bukan Cuma Hiasan!\" ke YouTube Shorts & TikTok..."
+      },
+      {
+        "timestamp": "2026-11-24T20:11:50.370Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Berhasil post YouTube Shorts: https://youtube.com/shorts/C0Mb8tHClxY"
+      },
+      {
+        "timestamp": "2026-11-24T20:12:50.602Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Berhasil post TikTok: publishId=v_inbox_file~v2.7711833108525385749"
+      },
+      {
+        "timestamp": "2026-11-24T20:39:10.816Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi terarah pada [qa_render] (cascade=ya): \"Kunci presisi setiap potongan subtitle ke awal dan akhir gelombang suara WAV memakai Viterbi Acoustic Alignment agar tidak pernah telat\""
+      },
+      {
+        "timestamp": "2026-11-24T20:39:10.856Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Revisi QC/Render diminta: Kunci presisi setiap potongan subtitle ke awal dan akhir gelombang suara WAV memakai Viterbi Acoustic Alignment agar tidak pernah telat"
+      },
+      {
+        "timestamp": "2026-11-24T20:39:11.073Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Subtitle Viterbi Sync aktif: 63 potongan subtitle dikunci presisi ke gelombang suara WAV (54.56s, bebas telat!)."
+      },
+      {
+        "timestamp": "2026-11-24T20:39:11.093Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Audit QC 1-to-1 lulus bersih tanpa koreksi paksa."
+      },
+      {
+        "timestamp": "2026-11-24T20:45:52.865Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Render MP4 lulus (54.57s · 20 MB) · 10 frame diekstrak · 0 auto-fix"
+      },
+      {
+        "timestamp": "2026-11-24T20:45:52.899Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi agent [qa_render] selesai diterapkan."
+      },
+      {
+        "timestamp": "2026-11-24T22:16:21.062Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi terarah pada [qa_render] (cascade=ya): \"Render adegan 3D penuh dengan kompor, panci, tutup kaca berlubang, kerak, cobek batu, sumpit, kamera macro, dan 3D cutaway edukasi\""
+      },
+      {
+        "timestamp": "2026-11-24T22:16:21.097Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Revisi QC/Render diminta: Render adegan 3D penuh dengan kompor, panci, tutup kaca berlubang, kerak, cobek batu, sumpit, kamera macro, dan 3D cutaway edukasi"
+      },
+      {
+        "timestamp": "2026-11-24T22:16:21.276Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Subtitle Viterbi Sync aktif: 63 potongan subtitle dikunci presisi ke gelombang suara WAV (54.56s, bebas telat!)."
+      },
+      {
+        "timestamp": "2026-11-24T22:16:21.294Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "QC auto-fix diterapkan (1 item): sc_1: [Anti-Cheat #3] mengarahkan kamera 3D ke \"macro_closeup\" tepat pada lubang uap tutup panci"
+      },
+      {
+        "timestamp": "2026-11-24T22:23:55.352Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Render MP4 lulus (54.57s · 24.11 MB) · 10 frame diekstrak · 1 auto-fix"
+      },
+      {
+        "timestamp": "2026-11-24T22:23:55.381Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi agent [qa_render] selesai diterapkan."
+      },
+      {
+        "timestamp": "2026-11-24T22:28:55.269Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi terarah pada [qa_render] (cascade=ya): \"Finalisasi audit 3D: sc_1 over_counter Kiki panik, cobek batu menempel pas di tutup panci, framing 2 tokoh penuh, kaca bening bersih\""
+      },
+      {
+        "timestamp": "2026-11-24T22:28:55.314Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Revisi QC/Render diminta: Finalisasi audit 3D: sc_1 over_counter Kiki panik, cobek batu menempel pas di tutup panci, framing 2 tokoh penuh, kaca bening bersih"
+      },
+      {
+        "timestamp": "2026-11-24T22:28:55.499Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Subtitle Viterbi Sync aktif: 63 potongan subtitle dikunci presisi ke gelombang suara WAV (54.56s, bebas telat!)."
+      },
+      {
+        "timestamp": "2026-11-24T22:28:55.518Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Audit QC 1-to-1 lulus bersih tanpa koreksi paksa."
+      },
+      {
+        "timestamp": "2026-11-24T22:36:32.091Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Render MP4 lulus (54.57s · 24.43 MB) · 10 frame diekstrak · 0 auto-fix"
+      },
+      {
+        "timestamp": "2026-11-24T22:36:32.113Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi agent [qa_render] selesai diterapkan."
+      },
+      {
+        "timestamp": "2026-11-25T09:53:32.520Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Memulai produksi cerita 3D segar baru (Riset -> Naskah -> Sutradara -> Analis -> Animator -> Narator)..."
+      },
+      {
+        "timestamp": "2026-11-25T09:53:32.531Z",
+        "agent": "researcher",
+        "level": "INFO",
+        "message": "Revisi riset diminta: Pilih topik rahasia/fungsi benda fisik sehari-hari yang SEGAR & BELUM PERNAH DIBAHAS (jangan panci, roti, helm, telur, botol dingin, microwave, rice cooker, atau sensor sinyal HP!), berlangsung konsisten di SATU ruangan dalam ruang (mis. kosan, ruang_tamu, kantor, kafe_warkop, atau bengkel), punya bagian/lubang/mekanisme kecil unik di benda fisiknya yang sangat seru diperagakan secara 3D Macro Close-Up dan 3D Cutaway!"
+      },
+      {
+        "timestamp": "2026-11-25T09:53:42.163Z",
+        "agent": "researcher",
+        "level": "INFO",
+        "message": "Topik #1: \"Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)\" (skor 96/100) · 2 kandidat lain dievaluasi"
+      },
+      {
+        "timestamp": "2026-11-25T09:53:42.178Z",
+        "agent": "writer",
+        "level": "INFO",
+        "message": "Memulai penulisan cerpen 5 babak berdasarkan brief Raka (\"Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)\")"
+      },
+      {
+        "timestamp": "2026-11-25T09:53:42.208Z",
+        "agent": "writer",
+        "level": "INFO",
+        "message": "Draft naskah ke-1/4 sedang ditulis Senja (angle=panik_kepepet)..."
+      },
+      {
+        "timestamp": "2026-11-25T09:53:46.644Z",
+        "agent": "writer",
+        "level": "INFO",
+        "message": "\"Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)\" · 10 adegan · 106 kata · Cast: Dito & Sari"
+      },
+      {
+        "timestamp": "2026-11-25T09:53:46.664Z",
+        "agent": "director",
+        "level": "INFO",
+        "message": "Mengubah naskah Senja menjadi storyboard 3D + koreografi fisik 1-to-1..."
+      },
+      {
+        "timestamp": "2026-11-25T09:53:46.670Z",
+        "agent": "director",
+        "level": "INFO",
+        "message": "Bima menyusun blok adegan & kamera (percobaan 1/3)..."
+      },
+      {
+        "timestamp": "2026-11-25T09:53:53.056Z",
+        "agent": "director",
+        "level": "INFO",
+        "message": "10 adegan terkoreografi · Lokasi: kosan -> ruang_tamu · 10 request visual ke Animator"
+      },
+      {
+        "timestamp": "2026-11-25T09:53:53.070Z",
+        "agent": "visual_analyst",
+        "level": "INFO",
+        "message": "Nadia meneliti setiap kalimat naskah dan menghitung zona aman visual untuk Kirana..."
+      },
+      {
+        "timestamp": "2026-11-25T09:53:56.892Z",
+        "agent": "visual_analyst",
+        "level": "INFO",
+        "message": "6/10 adegan wajib dibuatkan visual baru (lengkap dengan koordinat zona aman -> dikirim ke Kirana)"
+      },
+      {
+        "timestamp": "2026-11-25T09:53:56.906Z",
+        "agent": "animator",
+        "level": "INFO",
+        "message": "Kirana membangun aset visual baru di koordinat zona aman berdasarkan breakdown Nadia..."
+      },
+      {
+        "timestamp": "2026-11-25T09:54:29.003Z",
+        "agent": "animator",
+        "level": "INFO",
+        "message": "2/10 adegan diberi visual baru (2 Action Rig + vektor SVG animasi)"
+      },
+      {
+        "timestamp": "2026-11-25T09:54:29.039Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Arga masuk bilik rekaman untuk sulih suara ekspresif multi-emosi..."
+      },
+      {
+        "timestamp": "2026-11-25T09:54:29.057Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak seg_1 (babak1_pembuka) -> emosi \"hook_penasaran\": Natural, curious Indonesian human voice sharing an intriguing real-life ..."
+      },
+      {
+        "timestamp": "2026-11-25T09:54:29.072Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak seg_2 (babak2_konflik) -> emosi \"kocak_frustrasi\": Expressive, relatable Indonesian human storyteller recounting a hectic e..."
+      },
+      {
+        "timestamp": "2026-11-25T09:54:29.081Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak seg_3 (babak3_titik_balik) -> emosi \"kaget_heboh\": Spontaneous, genuinely surprised Indonesian human storyteller reacting n..."
+      },
+      {
+        "timestamp": "2026-11-25T09:54:29.092Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak seg_4 (babak4_terungkap) -> emosi \"aha_antusias\": Warm, clear, engaging Indonesian friend explaining an everyday insight s..."
+      },
+      {
+        "timestamp": "2026-11-25T09:54:29.107Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Babak seg_5 (babak5_penutup) -> emosi \"punchline_ngakak\": Warm, upbeat Indonesian storyteller delivering a clever everyday ending ..."
+      },
+      {
+        "timestamp": "2026-11-25T09:54:46.789Z",
+        "agent": "narrator",
+        "level": "INFO",
+        "message": "Audio 43.00s (1290 frames · 5 babak ekspresif · Gemini TTS)"
+      },
+      {
+        "timestamp": "2026-11-25T10:06:15.564Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi terarah pada [qa_render] (cascade=ya): \"Render cerita 3D baru Doorway Effect lengkap dengan pintu 3D, HP dialer macro, setrika beruap 3D, dan laptop browser cutaway 3D\""
+      },
+      {
+        "timestamp": "2026-11-25T10:06:15.601Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Revisi QC/Render diminta: Render cerita 3D baru Doorway Effect lengkap dengan pintu 3D, HP dialer macro, setrika beruap 3D, dan laptop browser cutaway 3D"
+      },
+      {
+        "timestamp": "2026-11-25T10:06:15.765Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Subtitle Viterbi Sync aktif: 52 potongan subtitle dikunci presisi ke gelombang suara WAV (43.00s, bebas telat!)."
+      },
+      {
+        "timestamp": "2026-11-25T10:06:15.780Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "QC auto-fix diterapkan (2 item): sc_8: [Anti-Cheat #4] mengaktifkan sudut kamera \"cutaway_3d\" pada model mekanisme 3D | sc_8: handMotion -> \"melambai_panik\""
+      },
+      {
+        "timestamp": "2026-11-25T10:11:36.918Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Render MP4 lulus (43.01s · 17.18 MB) · 10 frame diekstrak · 2 auto-fix"
+      },
+      {
+        "timestamp": "2026-11-25T10:11:36.949Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi agent [qa_render] selesai diterapkan."
+      },
+      {
+        "timestamp": "2026-11-25T10:14:31.124Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi terarah pada [qa_render] (cascade=ya): \"Finalisasi ayunan daun pintu kayu 3D & gagang kuningan ke arah +Z serta pose jempol Dito sebelum upload publik\""
+      },
+      {
+        "timestamp": "2026-11-25T10:14:31.165Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Revisi QC/Render diminta: Finalisasi ayunan daun pintu kayu 3D & gagang kuningan ke arah +Z serta pose jempol Dito sebelum upload publik"
+      },
+      {
+        "timestamp": "2026-11-25T10:14:31.311Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Subtitle Viterbi Sync aktif: 52 potongan subtitle dikunci presisi ke gelombang suara WAV (43.00s, bebas telat!)."
+      },
+      {
+        "timestamp": "2026-11-25T10:14:31.335Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "QC auto-fix diterapkan (1 item): sc_8: [Anti-Cheat #4] mengaktifkan sudut kamera \"cutaway_3d\" pada model mekanisme 3D"
+      },
+      {
+        "timestamp": "2026-11-25T10:19:55.964Z",
+        "agent": "qa_render",
+        "level": "INFO",
+        "message": "Render MP4 lulus (43.01s · 17.42 MB) · 10 frame diekstrak · 1 auto-fix"
+      },
+      {
+        "timestamp": "2026-11-25T10:19:55.989Z",
+        "agent": "studio",
+        "level": "INFO",
+        "message": "Revisi agent [qa_render] selesai diterapkan."
+      }
+    ],
+    "liveTunnelUrl": null
+  },
+  "artifacts": {
+    "research": {
+      "researchedAt": "2026-11-25T09:53:42.126Z",
+      "usedWebSearch": false,
+      "niche": "Psikologi Unik Otak Saat Belanja, Ngobrol & Tidur",
+      "selected": {
+        "title": "Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)",
+        "topicKey": "misteri-lupa-di-depan-pintu",
+        "category": "fakta unik otak & kebiasaan manusia sehari-hari",
+        "viralScore": 96,
+        "whyViral": "Setiap orang pasti pernah ngalamin 'numpang lewat' lalu lupa tujuan. Sangat relatable dan memancing penonton untuk tag temannya yang pelupa.",
+        "hookLineIdea": "Pernah gak sih, pas jalan mau ambil HP di kamar, eh pas nyampe depan pintu malah bengong, 'Gue mau ngapain ya tadi?'",
+        "lightEverydayFact": "Otak kita itu kayak komputer yang punya folder. Pas kita ganti ruangan, otak menganggap kita udah pindah ke 'folder baru', jadi informasi dari ruangan sebelumnya di-arsip sementara biar otak gak kepenuhan.",
+        "visualAnalogy": "Kayak ganti tab browser, pas ganti tab, tab lama jadi loading/idle biar RAM-nya gak penuh.",
+        "funnyEndingTwist": "Dito akhirnya inget mau ambil HP, pas balik ke ruangan asal, ternyata HP-nya lagi dipegang sama Sari sambil ngetawain Dito yang bolak-balik kayak setrikaan.",
+        "storyBeats": [
+          "Babak 1 (Hook): Dito jalan dengan mantap dari ruang tamu ke kamar, tiba-tiba berhenti di ambang pintu, ekspresinya bingung total.",
+          "Babak 2 (Coba sendiri gagal): Dito balik lagi ke ruang tamu, berusaha mengingat-ingat dengan cara memejamkan mata dan bergumam sendiri.",
+          "Babak 3 (Momen ketahuan): Sari melihat Dito mondar-mandir depan pintu dan mulai menggoda Dito dengan candaan 'jalan-jalan sore ya?'.",
+          "Babak 4 (Penjelasan ringan): Dito menjelaskan secara singkat (dengan animasi 3D otak yang lagi memindahkan folder file) kenapa hal itu terjadi.",
+          "Babak 5 (Berhasil + twist): Dito akhirnya ingat, mau ambil HP, eh pas dapet HP-nya, ternyata dia malah lupa mau nelfon siapa."
+        ],
+        "recommendedCast": [
+          {
+            "name": "Dito",
+            "preset": "mahasiswa",
+            "role": "tokoh yang sering kelupaan"
+          },
+          {
+            "name": "Sari",
+            "preset": "mahasiswi",
+            "role": "teman yang iseng"
+          }
+        ],
+        "recommendedLocations": [
+          "ruang_tamu",
+          "kosan"
+        ],
+        "keyObjects": [
+          "pintu",
+          "hp"
+        ]
+      },
+      "runnerUps": [
+        {
+          "title": "Kenapa Menguap Itu Menular Banget?",
+          "topicKey": "rahasia-efek-menguap-massal",
+          "viralScore": 89,
+          "reasonSkipped": "Konsep pintu lebih visual untuk 3D cutaway (mekanisme folder otak) dibanding menguap yang lebih ke arah emosional."
+        },
+        {
+          "title": "Kenapa Bantal Sisi Sebelah Selalu Lebih Dingin?",
+          "topicKey": "misteri-bantal-dingin",
+          "viralScore": 85,
+          "reasonSkipped": "Topik ini sudah cukup sering dibahas di konten trivia lain, doorway effect lebih unik secara psikologi."
+        }
+      ]
+    },
+    "script": {
+      "title": "Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)",
+      "topicKey": "misteri-lupa-di-depan-pintu",
+      "category": "fakta unik otak & kebiasaan manusia sehari-hari",
+      "logline": "Dito berjuang melawan memori jangka pendek yang hilang saat melewati ambang pintu, berakhir dengan kenyataan konyol di depan Sari.",
+      "cast": [
+        {
+          "name": "Dito",
+          "preset": "mahasiswa",
+          "role": "Mahasiswa yang mudah lupa dan panik"
+        },
+        {
+          "name": "Sari",
+          "preset": "mahasiswi",
+          "role": "Teman yang iseng dan santai"
+        }
+      ],
+      "youtube": {
+        "title": "Pernah Bengong Pas Lewat Pintu? Ini Alasan Otak Lo Lupa! #Shorts",
+        "description": "Pernah gak sih mau ambil HP di kamar eh pas nyampe depan pintu malah bengong? Ternyata ini cara kerja otak kita! #sipintar_id #faktaunik #Shorts #sains",
+        "tags": [
+          "sipintar_id",
+          "faktaunik",
+          "ceritapendek",
+          "animasi",
+          "shorts"
+        ]
+      },
+      "tiktok": {
+        "caption": "Pernah gak sih lo bengong di depan pintu gara-gara lupa mau ngapain? Ternyata ini alasannya! #sipintar_id #faktaunik",
+        "hashtags": [
+          "sipintar_id",
+          "faktaunik",
+          "ceritapendek"
+        ]
+      },
+      "segments": [
+        {
+          "id": "seg_1",
+          "role": "babak1_pembuka",
+          "voiceEmotion": "hook_penasaran",
+          "highlightWords": [
+            "bengong",
+            "pintu"
+          ],
+          "scenes": [
+            {
+              "id": "sc_1",
+              "line": "Dito jalan mantap mau ke kamar, tapi pas nyampe ambang pintu,,",
+              "voiceEmotion": "hook_penasaran",
+              "storyIntent": "Dito melangkah tegas lalu tiba-tiba mengerem mendadak di depan pintu kamar dengan tatapan kosong dan mulut sedikit terbuka.",
+              "sfxText": "WADUH!"
+            },
+            {
+              "id": "sc_2",
+              "line": "eh dia malah berhenti total dan bengong kayak orang bingung!",
+              "voiceEmotion": "hook_penasaran",
+              "storyIntent": "Dito melangkah tegas lalu tiba-tiba mengerem mendadak di depan pintu kamar dengan tatapan kosong dan mulut sedikit terbuka."
+            }
+          ]
+        },
+        {
+          "id": "seg_2",
+          "role": "babak2_konflik",
+          "voiceEmotion": "kocak_frustrasi",
+          "highlightWords": [
+            "mondar-mandir",
+            "konyol"
+          ],
+          "scenes": [
+            {
+              "id": "sc_3",
+              "line": "Dia balik lagi ke ruang tamu, merem melek sambil garuk kepala, berusaha,",
+              "voiceEmotion": "kocak_frustrasi",
+              "storyIntent": "Dito mondar-mandir antara ruang tamu dan kamar sambil memejamkan mata dan mengacak-acak rambutnya dengan frustrasi.",
+              "sfxText": "SRET!"
+            },
+            {
+              "id": "sc_4",
+              "line": "nginget apa yang mau diambilnya tadi, tapi malah makin gak jelas!",
+              "voiceEmotion": "kocak_frustrasi",
+              "storyIntent": "Dito mondar-mandir antara ruang tamu dan kamar sambil memejamkan mata dan mengacak-acak rambutnya dengan frustrasi."
+            }
+          ]
+        },
+        {
+          "id": "seg_3",
+          "role": "babak3_titik_balik",
+          "voiceEmotion": "kaget_heboh",
+          "highlightWords": [
+            "jalan-jalan",
+            "iseng"
+          ],
+          "scenes": [
+            {
+              "id": "sc_5",
+              "line": "Sari dateng sambil ngetawain Dito, eh Dit, lagi latihan,",
+              "voiceEmotion": "kaget_heboh",
+              "storyIntent": "Sari bersandar di dinding sambil melipat tangan di dada, memperhatikan Dito dengan ekspresi mengejek yang lucu.",
+              "sfxText": "CLING!"
+            },
+            {
+              "id": "sc_6",
+              "line": "jalan-jalan sore ya, bolak-balik mulu kayak setrikaan panas!",
+              "voiceEmotion": "kaget_heboh",
+              "storyIntent": "Sari bersandar di dinding sambil melipat tangan di dada, memperhatikan Dito dengan ekspresi mengejek yang lucu."
+            }
+          ]
+        },
+        {
+          "id": "seg_4",
+          "role": "babak4_terungkap",
+          "voiceEmotion": "aha_antusias",
+          "highlightWords": [
+            "folder",
+            "browser"
+          ],
+          "scenes": [
+            {
+              "id": "sc_7",
+              "line": "Otak lo itu kayak ganti tab browser, pas pindah ruangan, file lama,",
+              "voiceEmotion": "aha_antusias",
+              "storyIntent": "Dito menunjuk kepalanya dengan jari telunjuk, sementara di belakangnya muncul grafis 3D folder yang tertutup rapat saat melewati pintu."
+            },
+            {
+              "id": "sc_8",
+              "line": "di-arsip biar RAM otak gak kepenuhan, jadi wajar aja lo lupa!",
+              "voiceEmotion": "aha_antusias",
+              "storyIntent": "Dito menunjuk kepalanya dengan jari telunjuk, sementara di belakangnya muncul grafis 3D folder yang tertutup rapat saat melewati pintu."
+            }
+          ]
+        },
+        {
+          "id": "seg_5",
+          "role": "babak5_penutup",
+          "voiceEmotion": "punchline_ngakak",
+          "highlightWords": [
+            "HP",
+            "siapa"
+          ],
+          "scenes": [
+            {
+              "id": "sc_9",
+              "line": "Dito akhirnya inget mau ambil HP, pas udah pegang HP-nya, dia malah bengong lagi, lah emang tadi gue mau nelpon siapa ya?",
+              "voiceEmotion": "punchline_ngakak",
+              "storyIntent": "Sari menyodorkan HP Dito sambil tertawa, Dito memegang HP-nya tapi kembali melongo dengan wajah bloon yang sangat ekspresif."
+            },
+            {
+              "id": "sc_10",
+              "line": "",
+              "voiceEmotion": "punchline_ngakak",
+              "storyIntent": "Sari menyodorkan HP Dito sambil tertawa, Dito memegang HP-nya tapi kembali melongo dengan wajah bloon yang sangat ekspresif."
+            }
+          ]
+        }
+      ]
+    },
+    "direction": {
+      "title": "Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)",
+      "topicKey": "misteri-lupa-di-depan-pintu",
+      "cast": [
+        {
+          "name": "Dito",
+          "preset": "mahasiswa",
+          "role": "Mahasiswa yang mudah lupa dan panik"
+        },
+        {
+          "name": "Sari",
+          "preset": "mahasiswi",
+          "role": "Teman yang iseng dan santai"
+        }
+      ],
+      "locationsUsed": [
+        "kosan",
+        "ruang_tamu"
+      ],
+      "scenes": [
+        {
+          "id": "sc_1",
+          "segmentId": "seg_1",
+          "line": "Dito jalan mantap mau ke kamar, tapi pas nyampe ambang pintu,,",
+          "weight": 11,
+          "voiceEmotion": "hook_penasaran",
+          "sfxText": "WADUH!",
+          "background": "kosan",
+          "shot": "medium",
+          "timeOfDay": "siang",
+          "propPlacement": "tanpa_meja",
+          "visualNeeds": "Dito melangkah dengan gerakan mantap menuju pintu kamar.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "bingung",
+              "pose": "diam",
+              "action": "jalan",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": false,
+              "splashed": false,
+              "position": "tengah",
+              "talking": false
+            }
+          ],
+          "camera": "dolly_pelan",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_2",
+          "segmentId": "seg_1",
+          "line": "eh dia malah berhenti total dan bengong kayak orang bingung!",
+          "weight": 10,
+          "voiceEmotion": "hook_penasaran",
+          "background": "kosan",
+          "shot": "closeup",
+          "timeOfDay": "siang",
+          "propPlacement": "tanpa_meja",
+          "visualNeeds": "Dito mengerem mendadak di depan pintu dengan ekspresi kosong.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "bingung",
+              "pose": "diam",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": true,
+              "splashed": false,
+              "position": "tengah",
+              "talking": false
+            }
+          ],
+          "camera": "statis",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_3",
+          "segmentId": "seg_2",
+          "line": "Dia balik lagi ke ruang tamu, merem melek sambil garuk kepala, berusaha,",
+          "weight": 12,
+          "voiceEmotion": "kocak_frustrasi",
+          "sfxText": "SRET!",
+          "background": "ruang_tamu",
+          "shot": "wide",
+          "timeOfDay": "siang",
+          "propPlacement": "meja",
+          "visualNeeds": "Dito mondar-mandir di ruang tamu dengan gestur frustrasi.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "frustrasi",
+              "pose": "garuk_kepala",
+              "action": "jalan",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": true,
+              "splashed": false,
+              "position": "tengah",
+              "talking": false
+            }
+          ],
+          "camera": "pan_kiri",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_4",
+          "segmentId": "seg_2",
+          "line": "nginget apa yang mau diambilnya tadi, tapi malah makin gak jelas!",
+          "weight": 11,
+          "voiceEmotion": "kocak_frustrasi",
+          "background": "ruang_tamu",
+          "shot": "medium",
+          "timeOfDay": "siang",
+          "propPlacement": "meja",
+          "visualNeeds": "Dito memejamkan mata sambil mengacak rambut.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "frustrasi",
+              "pose": "garuk_kepala",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": true,
+              "splashed": false,
+              "position": "tengah",
+              "talking": false
+            }
+          ],
+          "camera": "statis",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_5",
+          "segmentId": "seg_3",
+          "line": "Sari dateng sambil ngetawain Dito, eh Dit, lagi latihan,",
+          "weight": 9,
+          "voiceEmotion": "kaget_heboh",
+          "sfxText": "CLING!",
+          "background": "ruang_tamu",
+          "shot": "wide",
+          "timeOfDay": "siang",
+          "propPlacement": "meja",
+          "visualNeeds": "Sari bersandar di dinding sambil menatap Dito dengan ekspresi ejek.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "bingung",
+              "pose": "diam",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": false,
+              "splashed": false,
+              "position": "kiri",
+              "talking": false
+            },
+            {
+              "name": "Sari",
+              "preset": "mahasiswi",
+              "expression": "tertawa",
+              "pose": "menyilang_tangan",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": false,
+              "splashed": false,
+              "position": "kanan",
+              "talking": false
+            }
+          ],
+          "camera": "statis",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_6",
+          "segmentId": "seg_3",
+          "line": "jalan-jalan sore ya, bolak-balik mulu kayak setrikaan panas!",
+          "weight": 8,
+          "voiceEmotion": "kaget_heboh",
+          "background": "ruang_tamu",
+          "shot": "medium",
+          "timeOfDay": "siang",
+          "propPlacement": "meja",
+          "visualNeeds": "Sari tertawa meremehkan Dito.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "bingung",
+              "pose": "diam",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": false,
+              "splashed": false,
+              "position": "kiri",
+              "talking": false
+            },
+            {
+              "name": "Sari",
+              "preset": "mahasiswi",
+              "expression": "tertawa",
+              "pose": "menyilang_tangan",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": false,
+              "splashed": false,
+              "position": "kanan",
+              "talking": false
+            }
+          ],
+          "camera": "over_shoulder",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_7",
+          "segmentId": "seg_4",
+          "line": "Otak lo itu kayak ganti tab browser, pas pindah ruangan, file lama,",
+          "weight": 12,
+          "voiceEmotion": "aha_antusias",
+          "background": "kosan",
+          "shot": "cutaway_3d",
+          "timeOfDay": "siang",
+          "propPlacement": "tanpa_meja",
+          "visualNeeds": "Grafis 3D folder tertutup saat Dito melewati pintu.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "bingung",
+              "pose": "diam",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "menunjuk_target",
+              "heldItem": "none",
+              "sweat": false,
+              "splashed": false,
+              "position": "tengah",
+              "talking": false
+            }
+          ],
+          "camera": "side_angle",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_8",
+          "segmentId": "seg_4",
+          "line": "di-arsip biar RAM otak gak kepenuhan, jadi wajar aja lo lupa!",
+          "weight": 11,
+          "voiceEmotion": "aha_antusias",
+          "background": "kosan",
+          "shot": "cutaway_3d",
+          "timeOfDay": "siang",
+          "propPlacement": "tanpa_meja",
+          "visualNeeds": "Visualisasi folder otak terarsip saat Dito menunjuk kepala.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "bingung",
+              "pose": "diam",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "menunjuk_target",
+              "heldItem": "none",
+              "sweat": false,
+              "splashed": false,
+              "position": "tengah",
+              "talking": false
+            }
+          ],
+          "camera": "side_angle",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_9",
+          "segmentId": "seg_5",
+          "line": "Dito akhirnya inget mau ambil HP, pas udah pegang HP-nya, dia malah bengong lagi, lah emang tadi gue mau nelpon siapa ya?",
+          "weight": 22,
+          "voiceEmotion": "punchline_ngakak",
+          "background": "ruang_tamu",
+          "shot": "medium",
+          "timeOfDay": "siang",
+          "propPlacement": "meja",
+          "visualNeeds": "Sari menyodorkan HP, Dito memegang HP dengan wajah bengong.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "bingung",
+              "pose": "diam",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "hp",
+              "sweat": true,
+              "splashed": false,
+              "position": "kiri",
+              "talking": false
+            },
+            {
+              "name": "Sari",
+              "preset": "mahasiswi",
+              "expression": "tertawa",
+              "pose": "tutup_mulut_tertawa",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "none",
+              "sweat": false,
+              "splashed": false,
+              "position": "kanan",
+              "talking": false
+            }
+          ],
+          "camera": "medium",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        },
+        {
+          "id": "sc_10",
+          "segmentId": "seg_5",
+          "line": "",
+          "weight": 1,
+          "voiceEmotion": "punchline_ngakak",
+          "background": "ruang_tamu",
+          "shot": "closeup",
+          "timeOfDay": "siang",
+          "propPlacement": "meja",
+          "visualNeeds": "Dito menunjukkan ekspresi bloon yang sangat ekspresif.",
+          "characters": [
+            {
+              "name": "Dito",
+              "preset": "mahasiswa",
+              "expression": "bingung",
+              "pose": "diam",
+              "action": "diam",
+              "posture": "berdiri",
+              "handMotion": "diam",
+              "heldItem": "hp",
+              "sweat": false,
+              "splashed": false,
+              "position": "tengah",
+              "talking": false
+            }
+          ],
+          "camera": "statis",
+          "transitionIn": "cut",
+          "effects": [],
+          "pip": false,
+          "cat": {
+            "show": false,
+            "reaction": "tidur"
+          }
+        }
+      ]
+    },
+    "breakdown": {
+      "analyzedAt": "2026-11-25T09:53:56.875Z",
+      "title": "Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)",
+      "topicKey": "misteri-lupa-di-depan-pintu",
+      "totalScenes": 10,
+      "mustBuildCount": 6,
+      "overallVisualStrategy": "Menggunakan elemen visual pop-up yang kontras antara dunia nyata Dito dan analogi teknis 'memori komputer' untuk menjelaskan Doorway Effect secara jenaka namun tetap edukatif.",
+      "items": [
+        {
+          "sceneId": "sc_1",
+          "line": "Dito jalan mantap mau ke kamar, tapi pas nyampe ambang pintu,,",
+          "background": "kosan",
+          "shot": "medium",
+          "mustBuildVisual": false,
+          "priority": "cukup_karakter",
+          "recommendedRig": "none",
+          "keyObjectsToDraw": [
+            "Dito melangkah dengan gerakan mantap menuju pintu kamar."
+          ],
+          "visualBriefForAnimator": "Fokus pada ekspresi wajah Dito yang melangkah mantap, transisi ke pose berhenti mendadak.",
+          "labelSuggestion": "JALAN MANTAP",
+          "safeZone": {
+            "x": 340,
+            "y": 395,
+            "maxScale": 0.88,
+            "layer": "beside_chars",
+            "forbiddenNote": "Karakter tunggal di tengah (x=340..740, y=560..1280): taruh di showcase atas y=395 agar 100% bebas dari wajah & tubuh!"
+          }
+        },
+        {
+          "sceneId": "sc_2",
+          "line": "eh dia malah berhenti total dan bengong kayak orang bingung!",
+          "background": "kosan",
+          "shot": "closeup",
+          "mustBuildVisual": true,
+          "priority": "wajib",
+          "recommendedRig": "custom_vector",
+          "keyObjectsToDraw": [
+            "tanda tanya melayang",
+            "efek blur kepala bingung"
+          ],
+          "visualBriefForAnimator": "Tambahkan ilustrasi 2D tanda tanya besar yang bergetar di atas kepala Dito dan efek blur lembut di sekitar wajah untuk menunjukkan momen 'blank'.",
+          "labelSuggestion": "BLANK!",
+          "safeZone": {
+            "x": 540,
+            "y": 385,
+            "maxScale": 0.84,
+            "layer": "beside_chars",
+            "forbiddenNote": "Shot closeup memperbesar kepala karakter di tengah (x=270..810, y=520..1300): WAJIB taruh di zona atas y=385!"
+          }
+        },
+        {
+          "sceneId": "sc_3",
+          "line": "Dia balik lagi ke ruang tamu, merem melek sambil garuk kepala, berusaha,",
+          "background": "ruang_tamu",
+          "shot": "wide",
+          "mustBuildVisual": false,
+          "priority": "cukup_karakter",
+          "recommendedRig": "none",
+          "keyObjectsToDraw": [
+            "Dito mondar-mandir di ruang tamu dengan gestur frustrasi."
+          ],
+          "visualBriefForAnimator": "Dito melakukan gestur mondar-mandir frustrasi, fokus pada bahasa tubuh.",
+          "labelSuggestion": "BINGUNG",
+          "safeZone": {
+            "x": 340,
+            "y": 395,
+            "maxScale": 0.88,
+            "layer": "beside_chars",
+            "forbiddenNote": "Karakter tunggal di tengah (x=340..740, y=560..1280): taruh di showcase atas y=395 agar 100% bebas dari wajah & tubuh!"
+          }
+        },
+        {
+          "sceneId": "sc_4",
+          "line": "nginget apa yang mau diambilnya tadi, tapi malah makin gak jelas!",
+          "background": "ruang_tamu",
+          "shot": "medium",
+          "mustBuildVisual": true,
+          "priority": "wajib",
+          "recommendedRig": "custom_vector",
+          "keyObjectsToDraw": [
+            "ikon memori loading",
+            "lingkaran berputar"
+          ],
+          "visualBriefForAnimator": "Munculkan ikon loading ala komputer di samping kepala Dito yang sedang mengacak rambut sebagai metafora otak yang gagal mencari data.",
+          "labelSuggestion": "LOADING...",
+          "safeZone": {
+            "x": 540,
+            "y": 395,
+            "maxScale": 0.88,
+            "layer": "beside_chars",
+            "forbiddenNote": "Karakter tunggal di tengah (x=340..740, y=560..1280): taruh di showcase atas y=395 agar 100% bebas dari wajah & tubuh!"
+          }
+        },
+        {
+          "sceneId": "sc_5",
+          "line": "Sari dateng sambil ngetawain Dito, eh Dit, lagi latihan,",
+          "background": "ruang_tamu",
+          "shot": "wide",
+          "mustBuildVisual": false,
+          "priority": "cukup_karakter",
+          "recommendedRig": "none",
+          "keyObjectsToDraw": [
+            "Sari bersandar di dinding sambil menatap Dito dengan ekspres"
+          ],
+          "visualBriefForAnimator": "Sari muncul dari sisi kanan, interaksi karakter yang natural.",
+          "labelSuggestion": "SARI MUNCUL",
+          "safeZone": {
+            "x": 360,
+            "y": 390,
+            "maxScale": 0.82,
+            "layer": "beside_chars",
+            "forbiddenNote": "Ada 2 karakter di kiri & kanan (y=540..1280): WAJIB taruh di area atas aman y=390 agar tidak menimpa wajah siapa pun!"
+          }
+        },
+        {
+          "sceneId": "sc_6",
+          "line": "jalan-jalan sore ya, bolak-balik mulu kayak setrikaan panas!",
+          "background": "ruang_tamu",
+          "shot": "medium",
+          "mustBuildVisual": true,
+          "priority": "wajib",
+          "recommendedRig": "custom_vector",
+          "keyObjectsToDraw": [
+            "siluet setrika baju",
+            "garis lintasan zig-zag"
+          ],
+          "visualBriefForAnimator": "Visualisasi lucu berupa ikon setrika dan jejak garis zig-zag di belakang Dito untuk menggambarkan ejekan Sari.",
+          "labelSuggestion": "SETRIKAAN!",
+          "safeZone": {
+            "x": 540,
+            "y": 390,
+            "maxScale": 0.82,
+            "layer": "beside_chars",
+            "forbiddenNote": "Ada 2 karakter di kiri & kanan (y=540..1280): WAJIB taruh di area atas aman y=390 agar tidak menimpa wajah siapa pun!"
+          }
+        },
+        {
+          "sceneId": "sc_7",
+          "line": "Otak lo itu kayak ganti tab browser, pas pindah ruangan, file lama,",
+          "background": "kosan",
+          "shot": "cutaway_3d",
+          "mustBuildVisual": true,
+          "priority": "wajib",
+          "recommendedRig": "banding_dua",
+          "keyObjectsToDraw": [
+            "tab browser terbuka",
+            "folder dokumen terarsip"
+          ],
+          "visualBriefForAnimator": "Gunakan perbandingan dua sisi: satu sisi tab terang (ruang awal), sisi lain folder terkunci/arsip (ruang baru) untuk menjelaskan analogi memori.",
+          "labelSuggestion": "ARSIP OTAK",
+          "safeZone": {
+            "x": 540,
+            "y": 395,
+            "maxScale": 0.88,
+            "layer": "beside_chars",
+            "forbiddenNote": "Karakter tunggal di tengah (x=340..740, y=560..1280): taruh di showcase atas y=395 agar 100% bebas dari wajah & tubuh!"
+          }
+        },
+        {
+          "sceneId": "sc_8",
+          "line": "di-arsip biar RAM otak gak kepenuhan, jadi wajar aja lo lupa!",
+          "background": "kosan",
+          "shot": "cutaway_3d",
+          "mustBuildVisual": true,
+          "priority": "wajib",
+          "recommendedRig": "custom_vector",
+          "keyObjectsToDraw": [
+            "RAM chip otak",
+            "ikon dokumen terbang"
+          ],
+          "visualBriefForAnimator": "Animasi 3D dokumen terbang masuk ke dalam folder saat Dito menunjuk kepala, warna neon futuristik.",
+          "labelSuggestion": "RAM PENUH",
+          "safeZone": {
+            "x": 540,
+            "y": 395,
+            "maxScale": 0.88,
+            "layer": "beside_chars",
+            "forbiddenNote": "Karakter tunggal di tengah (x=340..740, y=560..1280): taruh di showcase atas y=395 agar 100% bebas dari wajah & tubuh!"
+          }
+        },
+        {
+          "sceneId": "sc_9",
+          "line": "Dito akhirnya inget mau ambil HP, pas udah pegang HP-nya, dia malah bengong lagi, lah emang tadi gue mau nelpon siapa ya?",
+          "background": "ruang_tamu",
+          "shot": "medium",
+          "mustBuildVisual": true,
+          "priority": "wajib",
+          "recommendedRig": "custom_vector",
+          "keyObjectsToDraw": [
+            "ikon handphone",
+            "tanda tanya besar"
+          ],
+          "visualBriefForAnimator": "Munculkan ikon HP di tangan Dito, tambahkan tanda tanya di atasnya untuk menekankan ironi dia memegang HP tapi lupa fungsinya.",
+          "labelSuggestion": "HP LUPA?",
+          "safeZone": {
+            "x": 540,
+            "y": 390,
+            "maxScale": 0.82,
+            "layer": "beside_chars",
+            "forbiddenNote": "Ada 2 karakter di kiri & kanan (y=540..1280): WAJIB taruh di area atas aman y=390 agar tidak menimpa wajah siapa pun!"
+          }
+        },
+        {
+          "sceneId": "sc_10",
+          "line": "",
+          "background": "ruang_tamu",
+          "shot": "closeup",
+          "mustBuildVisual": false,
+          "priority": "cukup_karakter",
+          "recommendedRig": "none",
+          "keyObjectsToDraw": [
+            "Dito menunjukkan ekspresi bloon yang sangat ekspresif."
+          ],
+          "visualBriefForAnimator": "Close-up wajah Dito dengan ekspresi bloon yang sangat detail.",
+          "labelSuggestion": "BLOON",
+          "safeZone": {
+            "x": 540,
+            "y": 385,
+            "maxScale": 0.84,
+            "layer": "beside_chars",
+            "forbiddenNote": "Shot closeup memperbesar kepala karakter di tengah (x=270..810, y=520..1300): WAJIB taruh di zona atas y=385!"
+          }
+        }
+      ]
+    },
+    "visuals": {
+      "analyzedAt": "2026-11-25T09:54:28.971Z",
+      "totalScenes": 10,
+      "customVisualCount": 2,
+      "rigCount": 2,
+      "visualNotes": [
+        {
+          "sceneId": "sc_4",
+          "decision": "Menambahkan ikon loading komputer untuk metafora memori otak yang gagal.",
+          "rig": "custom_vector",
+          "groupCount": 1
+        },
+        {
+          "sceneId": "sc_7",
+          "decision": "Perbandingan dua sisi (tab terang vs folder arsip) untuk menjelaskan mekanisme otak.",
+          "rig": "banding_dua",
+          "groupCount": 0
+        }
+      ],
+      "storyWithVisuals": {
+        "title": "Kenapa Kita Sering Lupa Pas Lewat Pintu? (Doorway Effect)",
+        "topicKey": "misteri-lupa-di-depan-pintu",
+        "category": "fakta unik otak & kebiasaan manusia sehari-hari",
+        "cast": [
+          {
+            "name": "Dito",
+            "preset": "mahasiswa",
+            "role": "Mahasiswa yang mudah lupa dan panik"
+          },
+          {
+            "name": "Sari",
+            "preset": "mahasiswi",
+            "role": "Teman yang iseng dan santai"
+          }
+        ],
+        "youtube": {
+          "title": "Pernah Bengong Pas Lewat Pintu? Ini Alasan Otak Lo Lupa! #Shorts",
+          "description": "Pernah gak sih mau ambil HP di kamar eh pas nyampe depan pintu malah bengong? Ternyata ini cara kerja otak kita! #sipintar_id #faktaunik #Shorts #sains",
+          "tags": [
+            "sipintar_id",
+            "Shorts",
+            "faktaunik",
+            "ceritapendek",
+            "animasi",
+            "shorts"
+          ]
+        },
+        "tiktok": {
+          "caption": "Pernah gak sih lo bengong di depan pintu gara-gara lupa mau ngapain? Ternyata ini alasannya! #sipintar_id #faktaunik",
+          "hashtags": [
+            "sipintar_id",
+            "faktaunik",
+            "ceritapendek"
+          ]
+        },
+        "segments": [
+          {
+            "id": "seg_1",
+            "role": "babak1_pembuka",
+            "text": "Dito jalan mantap mau ke kamar, tapi pas nyampe ambang pintu,, eh dia malah berhenti total dan bengong kayak orang bingung!",
+            "style": "Warm, friendly, engaging Indonesian storyteller with natural conversational rhythm and curiosity",
+            "voiceEmotion": "hook_penasaran",
+            "highlightWords": [
+              "bengong",
+              "pintu"
+            ]
+          },
+          {
+            "id": "seg_2",
+            "role": "babak2_konflik",
+            "text": "Dia balik lagi ke ruang tamu, merem melek sambil garuk kepala, berusaha, nginget apa yang mau diambilnya tadi, tapi malah makin gak jelas!",
+            "style": "Expressive, relatable comedic storytelling with playful frustration, natural unhurried pace",
+            "voiceEmotion": "kocak_frustrasi",
+            "highlightWords": [
+              "mondar-mandir",
+              "konyol"
+            ]
+          },
+          {
+            "id": "seg_3",
+            "role": "babak3_titik_balik",
+            "text": "Sari dateng sambil ngetawain Dito, eh Dit, lagi latihan, jalan-jalan sore ya, bolak-balik mulu kayak setrikaan panas!",
+            "style": "Intriguing, animated storytelling shifting naturally into surprise and anticipation",
+            "voiceEmotion": "kaget_heboh",
+            "highlightWords": [
+              "jalan-jalan",
+              "iseng"
+            ]
+          },
+          {
+            "id": "seg_4",
+            "role": "babak4_terungkap",
+            "text": "Otak lo itu kayak ganti tab browser, pas pindah ruangan, file lama, di-arsip biar RAM otak gak kepenuhan, jadi wajar aja lo lupa!",
+            "style": "Warm, clear, enthusiastic \"Aha!\" storytelling with light amusement, conversational and never rushed",
+            "voiceEmotion": "aha_antusias",
+            "highlightWords": [
+              "folder",
+              "browser"
+            ]
+          },
+          {
+            "id": "seg_5",
+            "role": "babak5_penutup",
+            "text": "Dito akhirnya inget mau ambil HP, pas udah pegang HP-nya, dia malah bengong lagi, lah emang tadi gue mau nelpon siapa ya?",
+            "style": "Cheerful, witty, satisfying short-story ending with warm playful charm",
+            "voiceEmotion": "punchline_ngakak",
+            "highlightWords": [
+              "HP",
+              "siapa"
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": "sc_1",
+            "segmentId": "seg_1",
+            "line": "Dito jalan mantap mau ke kamar, tapi pas nyampe ambang pintu,,",
+            "weight": 11,
+            "background": "kosan",
+            "shot": "medium",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "bingung",
+                "pose": "diam",
+                "position": "tengah",
+                "talking": false,
+                "action": "jalan",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false,
+                "pose2": "memegang_dagu"
+              }
+            ],
+            "camera": "dolly_pelan",
+            "transitionIn": "cut",
+            "effects": [],
+            "sfxText": "WADUH!",
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "hook_penasaran",
+            "propPlacement": "tanpa_meja",
+            "visualNeeds": "Dito melangkah dengan gerakan mantap menuju pintu kamar."
+          },
+          {
+            "id": "sc_2",
+            "segmentId": "seg_1",
+            "line": "eh dia malah berhenti total dan bengong kayak orang bingung!",
+            "weight": 10,
+            "background": "kosan",
+            "shot": "closeup",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "bingung",
+                "pose": "diam",
+                "position": "tengah",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": true,
+                "splashed": false,
+                "pose2": "kaget_tangan_di_pipi"
+              }
+            ],
+            "camera": "statis",
+            "transitionIn": "cut",
+            "effects": [],
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "hook_penasaran",
+            "propPlacement": "tanpa_meja",
+            "visualNeeds": "Dito mengerem mendadak di depan pintu dengan ekspresi kosong."
+          },
+          {
+            "id": "sc_3",
+            "segmentId": "seg_2",
+            "line": "Dia balik lagi ke ruang tamu, merem melek sambil garuk kepala, berusaha,",
+            "weight": 12,
+            "background": "ruang_tamu",
+            "shot": "wide",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "frustrasi",
+                "pose": "garuk_kepala",
+                "position": "tengah",
+                "talking": false,
+                "action": "jalan",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": true,
+                "splashed": false,
+                "pose2": "tepuk_jidat"
+              }
+            ],
+            "camera": "pan_kiri",
+            "transitionIn": "cut",
+            "effects": [],
+            "sfxText": "SRET!",
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "kocak_frustrasi",
+            "propPlacement": "meja",
+            "visualNeeds": "Dito mondar-mandir di ruang tamu dengan gestur frustrasi."
+          },
+          {
+            "id": "sc_4",
+            "segmentId": "seg_2",
+            "line": "nginget apa yang mau diambilnya tadi, tapi malah makin gak jelas!",
+            "weight": 11,
+            "background": "ruang_tamu",
+            "shot": "medium",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "frustrasi",
+                "pose": "garuk_kepala",
+                "position": "tengah",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": true,
+                "splashed": false,
+                "pose2": "menunjuk_samping"
+              }
+            ],
+            "camera": "statis",
+            "transitionIn": "cut",
+            "effects": [],
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "kocak_frustrasi",
+            "propPlacement": "meja",
+            "visualNeeds": "Dito memejamkan mata sambil mengacak rambut.",
+            "customVisual": {
+              "rig": "custom_vector",
+              "summary": "Ikon loading otak berputar",
+              "primaryColor": "#03A9F4",
+              "groups": [
+                {
+                  "id": "loading_otak",
+                  "layer": "beside_chars",
+                  "x": 540,
+                  "y": 395,
+                  "scale": 0.88,
+                  "anim": "float_bob",
+                  "startPct": 0,
+                  "endPct": 1,
+                  "label": "LOADING...",
+                  "shapes": [
+                    {
+                      "kind": "circle",
+                      "cx": 0,
+                      "cy": 0,
+                      "r": 65,
+                      "fill": "#E1F5FE",
+                      "stroke": "#2A1D16",
+                      "strokeWidth": 5
+                    },
+                    {
+                      "kind": "ellipse",
+                      "cx": 0,
+                      "cy": 0,
+                      "rx": 45,
+                      "ry": 45,
+                      "fill": "#03A9F4",
+                      "stroke": "#2A1D16",
+                      "strokeWidth": 4
+                    },
+                    {
+                      "kind": "circle",
+                      "cx": 0,
+                      "cy": 0,
+                      "r": 20,
+                      "fill": "#FFFFFF",
+                      "stroke": "#2A1D16",
+                      "strokeWidth": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "sc_5",
+            "segmentId": "seg_3",
+            "line": "Sari dateng sambil ngetawain Dito, eh Dit, lagi latihan,",
+            "weight": 9,
+            "background": "ruang_tamu",
+            "shot": "wide",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "bingung",
+                "pose": "diam",
+                "position": "kiri",
+                "talking": false,
+                "action": "jalan",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false,
+                "pose2": "tangan_di_pinggang"
+              },
+              {
+                "name": "Sari",
+                "preset": "mahasiswi",
+                "expression": "tertawa",
+                "pose": "menyilang_tangan",
+                "position": "kanan",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false,
+                "pose2": "kedua_tangan_ke_atas"
+              }
+            ],
+            "camera": "zoom_in_pelan",
+            "transitionIn": "cut",
+            "effects": [],
+            "sfxText": "CLING!",
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "kaget_heboh",
+            "propPlacement": "meja",
+            "visualNeeds": "Sari bersandar di dinding sambil menatap Dito dengan ekspresi ejek."
+          },
+          {
+            "id": "sc_6",
+            "segmentId": "seg_3",
+            "line": "jalan-jalan sore ya, bolak-balik mulu kayak setrikaan panas!",
+            "weight": 8,
+            "background": "ruang_tamu",
+            "shot": "medium",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "bingung",
+                "pose": "diam",
+                "position": "kiri",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false,
+                "pose2": "angkat_bahu"
+              },
+              {
+                "name": "Sari",
+                "preset": "mahasiswi",
+                "expression": "tertawa",
+                "pose": "menyilang_tangan",
+                "position": "kanan",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false
+              }
+            ],
+            "camera": "dolly_pelan",
+            "transitionIn": "cut",
+            "effects": [],
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "kaget_heboh",
+            "propPlacement": "meja",
+            "visualNeeds": "Sari tertawa meremehkan Dito."
+          },
+          {
+            "id": "sc_7",
+            "segmentId": "seg_4",
+            "line": "Otak lo itu kayak ganti tab browser, pas pindah ruangan, file lama,",
+            "weight": 12,
+            "background": "kosan",
+            "shot": "cutaway_3d",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "bingung",
+                "pose": "diam",
+                "position": "tengah",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false
+              }
+            ],
+            "camera": "pan_kanan",
+            "transitionIn": "cut",
+            "effects": [],
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "aha_antusias",
+            "propPlacement": "tanpa_meja",
+            "visualNeeds": "Grafis 3D folder tertutup saat Dito melewati pintu.",
+            "customVisual": {
+              "rig": "banding_dua",
+              "summary": "Perbandingan tab browser dan arsip memori",
+              "primaryColor": "#4CAF50",
+              "beforeLabel": "TAB AKTIF",
+              "afterLabel": "ARSIP LAMA",
+              "groups": []
+            }
+          },
+          {
+            "id": "sc_8",
+            "segmentId": "seg_4",
+            "line": "di-arsip biar RAM otak gak kepenuhan, jadi wajar aja lo lupa!",
+            "weight": 11,
+            "background": "kosan",
+            "shot": "wide",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "bingung",
+                "pose": "diam",
+                "position": "tengah",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false
+              }
+            ],
+            "camera": "dolly_pelan",
+            "transitionIn": "cut",
+            "effects": [],
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "aha_antusias",
+            "propPlacement": "tanpa_meja",
+            "visualNeeds": "Visualisasi folder otak terarsip saat Dito menunjuk kepala."
+          },
+          {
+            "id": "sc_9",
+            "segmentId": "seg_5",
+            "line": "Dito akhirnya inget mau ambil HP, pas udah pegang HP-nya, dia malah bengong lagi, lah emang tadi gue mau nelpon siapa ya?",
+            "weight": 22,
+            "background": "ruang_tamu",
+            "shot": "medium",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "bingung",
+                "pose": "diam",
+                "position": "kiri",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "hp",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": true,
+                "splashed": false
+              },
+              {
+                "name": "Sari",
+                "preset": "mahasiswi",
+                "expression": "tertawa",
+                "pose": "tutup_mulut_tertawa",
+                "position": "kanan",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "none",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false
+              }
+            ],
+            "camera": "dolly_pelan",
+            "transitionIn": "cut",
+            "effects": [],
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "punchline_ngakak",
+            "propPlacement": "meja",
+            "visualNeeds": "Sari menyodorkan HP, Dito memegang HP dengan wajah bengong."
+          },
+          {
+            "id": "sc_10",
+            "segmentId": "seg_5",
+            "weight": 1,
+            "background": "ruang_tamu",
+            "shot": "closeup",
+            "timeOfDay": "siang",
+            "characters": [
+              {
+                "name": "Dito",
+                "preset": "mahasiswa",
+                "expression": "bingung",
+                "pose": "diam",
+                "position": "tengah",
+                "talking": false,
+                "action": "diam",
+                "heldItem": "hp",
+                "posture": "berdiri",
+                "handMotion": "diam",
+                "sweat": false,
+                "splashed": false
+              }
+            ],
+            "camera": "statis",
+            "transitionIn": "cut",
+            "effects": [],
+            "pip": false,
+            "cat": {
+              "show": false,
+              "reaction": "tidur"
+            },
+            "voiceEmotion": "punchline_ngakak",
+            "propPlacement": "meja",
+            "visualNeeds": "Dito menunjukkan ekspresi bloon yang sangat ekspresif."
+          }
+        ]
+      }
+    },
+    "audio": {
+      "synthesizedAt": "2026-11-25T09:54:46.721Z",
+      "totalDurationSec": 43,
+      "speechDurationSec": 40.4,
+      "speedFactor": 1,
+      "mock": false,
+      "acts": [
+        {
+          "id": "seg_1",
+          "role": "babak1_pembuka",
+          "voiceEmotion": "hook_penasaran",
+          "styleUsed": "Natural, curious Indonesian human voice sharing an intriguing real-life story—warm conversational tone, lively curious inflection, crisp clear diction, ZERO chuckles or sighs",
+          "durationSec": 7.48,
+          "text": "Dito jalan mantap mau ke kamar, tapi pas nyampe ambang pintu,, eh dia malah berhenti total dan bengong kayak orang bingung!"
+        },
+        {
+          "id": "seg_2",
+          "role": "babak2_konflik",
+          "voiceEmotion": "kocak_frustrasi",
+          "styleUsed": "Expressive, relatable Indonesian human storyteller recounting a hectic everyday moment—natural conversational rhythm, lively vocal pitch variation ONLY, ZERO laughing, ZERO chuckling, ZERO sighing",
+          "durationSec": 9.55,
+          "text": "Dia balik lagi ke ruang tamu, merem melek sambil garuk kepala, berusaha, nginget apa yang mau diambilnya tadi, tapi malah makin gak jelas!"
+        },
+        {
+          "id": "seg_3",
+          "role": "babak3_titik_balik",
+          "voiceEmotion": "kaget_heboh",
+          "styleUsed": "Spontaneous, genuinely surprised Indonesian human storyteller reacting naturally in conversation—lively clear energy, smooth crisp Indonesian articulation, ZERO gasps or chuckles",
+          "durationSec": 6.1,
+          "text": "Sari dateng sambil ngetawain Dito, eh Dit, lagi latihan, jalan-jalan sore ya, bolak-balik mulu kayak setrikaan panas!"
+        },
+        {
+          "id": "seg_4",
+          "role": "babak4_terungkap",
+          "voiceEmotion": "aha_antusias",
+          "styleUsed": "Warm, clear, engaging Indonesian friend explaining an everyday insight simply—friendly clear human voice, effortless conversational clarity, ZERO chuckles",
+          "durationSec": 8.55,
+          "text": "Otak lo itu kayak ganti tab browser, pas pindah ruangan, file lama, di-arsip biar RAM otak gak kepenuhan, jadi wajar aja lo lupa!"
+        },
+        {
+          "id": "seg_5",
+          "role": "babak5_penutup",
+          "voiceEmotion": "punchline_ngakak",
+          "styleUsed": "Warm, upbeat Indonesian storyteller delivering a clever everyday ending with a bright friendly smile in the voice—crisp smooth delivery, ZERO audible laughing or breathy chuckles",
+          "durationSec": 8.72,
+          "text": "Dito akhirnya inget mau ambil HP, pas udah pegang HP-nya, dia malah bengong lagi, lah emang tadi gue mau nelpon siapa ya?"
+        }
+      ]
+    },
+    "qa": {
+      "checkedAt": "2026-11-25T10:19:55.938Z",
+      "videoPath": "C:\\Users\\User\\.gemini\\antigravity\\scratch\\sipintar-shorts\\output\\daily_short.mp4",
+      "durationSec": 43.01,
+      "sizeMb": 17.42,
+      "fixesApplied": [
+        "sc_8: [Anti-Cheat #4] mengaktifkan sudut kamera \"cutaway_3d\" pada model mekanisme 3D"
+      ],
+      "frames": [
+        {
+          "sceneId": "sc_1",
+          "index": 1,
+          "startSec": 0,
+          "durationSec": 4.57,
+          "line": "Dito jalan mantap mau ke kamar, tapi pas nyampe ambang pintu,",
+          "background": "kosan",
+          "shot": "wide",
+          "frameFile": "scene_01.png"
+        },
+        {
+          "sceneId": "sc_2",
+          "index": 2,
+          "startSec": 4.57,
+          "durationSec": 2.87,
+          "line": "eh dia malah berhenti total dan bengong kayak orang bingung!",
+          "background": "kosan",
+          "shot": "over_counter",
+          "frameFile": "scene_02.png"
+        },
+        {
+          "sceneId": "sc_3",
+          "index": 3,
+          "startSec": 7.43,
+          "durationSec": 3.87,
+          "line": "Dia balik lagi ke ruang tamu, merem melek sambil garuk kepala, berusaha,",
+          "background": "ruang_tamu",
+          "shot": "wide",
+          "frameFile": "scene_03.png"
+        },
+        {
+          "sceneId": "sc_4",
+          "index": 4,
+          "startSec": 11.3,
+          "durationSec": 4.1,
+          "line": "nginget apa yang mau diambilnya tadi, tapi malah makin gak jelas!",
+          "background": "ruang_tamu",
+          "shot": "macro_closeup",
+          "frameFile": "scene_04.png"
+        },
+        {
+          "sceneId": "sc_5",
+          "index": 5,
+          "startSec": 15.4,
+          "durationSec": 3.9,
+          "line": "Sari dateng sambil ngetawain Dito, eh Dit, lagi latihan,",
+          "background": "ruang_tamu",
+          "shot": "over_counter",
+          "frameFile": "scene_05.png"
+        },
+        {
+          "sceneId": "sc_6",
+          "index": 6,
+          "startSec": 19.3,
+          "durationSec": 3.7,
+          "line": "jalan-jalan sore ya, bolak-balik mulu kayak setrikaan panas!",
+          "background": "ruang_tamu",
+          "shot": "low_angle",
+          "frameFile": "scene_06.png"
+        },
+        {
+          "sceneId": "sc_7",
+          "index": 7,
+          "startSec": 23,
+          "durationSec": 5.13,
+          "line": "Otak lo itu kayak ganti tab browser, pas pindah ruangan, file lama,",
+          "background": "kosan",
+          "shot": "cutaway_3d",
+          "frameFile": "scene_07.png"
+        },
+        {
+          "sceneId": "sc_8",
+          "index": 8,
+          "startSec": 28.13,
+          "durationSec": 3.7,
+          "line": "di-arsip biar RAM otak gak kepenuhan, jadi wajar aja lo lupa!",
+          "background": "kosan",
+          "shot": "wide",
+          "frameFile": "scene_08.png"
+        },
+        {
+          "sceneId": "sc_9",
+          "index": 9,
+          "startSec": 31.83,
+          "durationSec": 4,
+          "line": "Dito akhirnya inget mau ambil HP, pas udah pegang HP-nya,",
+          "background": "kosan",
+          "shot": "over_counter",
+          "frameFile": "scene_09.png"
+        },
+        {
+          "sceneId": "sc_10",
+          "index": 10,
+          "startSec": 35.83,
+          "durationSec": 7.17,
+          "line": "dia malah bengong lagi, lah emang tadi gue mau nelpon siapa ya?",
+          "background": "kosan",
+          "shot": "macro_closeup",
+          "frameFile": "scene_10.png"
+        }
+      ]
+    },
+    "catalog": [
+      {
+        "createdAt": "2026-11-24T09:23:50.561Z",
+        "topicKey": "rahasia-kaca-helm-anti-embun-sabun",
+        "sceneId": "sc_2",
+        "line": "Diusap pakai tangan? Eh, malah makin buram kayak kena asap!",
+        "customVisual": {
+          "rig": "helm_embun_lap",
+          "summary": "Close-up visor helm yang diusap/digosok malah makin buram",
+          "beforeLabel": "EMBUN",
+          "afterLabel": "MAKIN BUREM!"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T09:23:50.561Z",
+        "topicKey": "rahasia-kaca-helm-anti-embun-sabun",
+        "sceneId": "sc_5",
+        "line": "Kacanya malah belepotan persis kayak kaca akuarium kotor!",
+        "customVisual": {
+          "summary": "Close-up visor helm kotor belepotan",
+          "primaryColor": "#8D6E63",
+          "groups": [
+            {
+              "id": "dirty_visor_zoom",
+              "layer": "in_front_of_chars",
+              "x": 795,
+              "y": 840,
+              "scale": 0.9,
+              "anim": "shake_hard",
+              "startPct": 0.1,
+              "endPct": 0.9,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -140,
+                  "y": -100,
+                  "width": 280,
+                  "height": 200,
+                  "rx": 20,
+                  "fill": "#B0BEC588",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "path",
+                  "d": "M-100,-40 Q-50,20 0,-40 T100,0",
+                  "fill": "none",
+                  "stroke": "#4E342E",
+                  "strokeWidth": 10
+                },
+                {
+                  "kind": "line",
+                  "x1": -80,
+                  "y1": -60,
+                  "x2": -40,
+                  "y2": -20,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "line",
+                  "x1": 20,
+                  "y1": 30,
+                  "x2": 70,
+                  "y2": 70,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "circle",
+                  "cx": 50,
+                  "cy": -30,
+                  "r": 15,
+                  "fill": "#FFECB3CC"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T09:23:50.561Z",
+        "topicKey": "rahasia-kaca-helm-anti-embun-sabun",
+        "sceneId": "sc_6",
+        "line": "<chuckle> Bima si Ojol ketawa melihat Reni, lalu dia keluarin botol kecil!",
+        "customVisual": {
+          "summary": "Botol sabun cair mini dengan label kilau",
+          "primaryColor": "#4CAF50",
+          "groups": [
+            {
+              "id": "soap_bottle",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 465,
+              "scale": 0.82,
+              "anim": "pop_scale",
+              "startPct": 0.4,
+              "endPct": 1,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -30,
+                  "y": -50,
+                  "width": 60,
+                  "height": 100,
+                  "rx": 10,
+                  "fill": "#81C784",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "rect",
+                  "x": -15,
+                  "y": -70,
+                  "width": 30,
+                  "height": 20,
+                  "rx": 5,
+                  "fill": "#455A64",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": 0,
+                  "r": 15,
+                  "fill": "#E8F5E9",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "text",
+                  "x": -10,
+                  "y": 5,
+                  "text": "S",
+                  "fontSize": 18,
+                  "fill": "#1B5E20"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T09:23:50.561Z",
+        "topicKey": "rahasia-kaca-helm-anti-embun-sabun",
+        "sceneId": "sc_7",
+        "line": "Bima olesin setetes sabun cair tipis-tipis, terus dilap sampai kering!",
+        "customVisual": {
+          "rig": "helm_embun_lap",
+          "summary": "Animasi visor helm dari buram menjadi bening mengkilap",
+          "primaryColor": "#2196F3",
+          "groups": []
+        }
+      },
+      {
+        "createdAt": "2026-11-24T09:23:50.561Z",
+        "topicKey": "rahasia-kaca-helm-anti-embun-sabun",
+        "sceneId": "sc_8",
+        "line": "Sekejap kaca langsung bening! Gak ada lagi embun yang nempel!",
+        "customVisual": {
+          "rig": "helm_embun_lap",
+          "summary": "Demo visor helm berubah bening bebas embun",
+          "beforeLabel": "KABUT",
+          "afterLabel": "BENING!"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T09:23:50.561Z",
+        "topicKey": "rahasia-kaca-helm-anti-embun-sabun",
+        "sceneId": "sc_11",
+        "line": "Reni girang banget, langsung tancap gas nembus hujan dengan bangga!",
+        "customVisual": {
+          "rig": "motor_hujan",
+          "summary": "Reni naik motor membelah hujan dengan visi jelas",
+          "primaryColor": "#FFD600",
+          "groups": []
+        }
+      },
+      {
+        "createdAt": "2026-11-24T09:23:50.561Z",
+        "topicKey": "rahasia-kaca-helm-anti-embun-sabun",
+        "sceneId": "sc_12",
+        "line": "Eh, tapi baru jalan sedetik... Reni baru sadar lupa pakai jas hujan!",
+        "customVisual": {
+          "rig": "motor_hujan",
+          "summary": "Efek air membasahi karakter dan ekspresi kaget",
+          "primaryColor": "#01579B",
+          "groups": [
+            {
+              "id": "wet_splatter",
+              "layer": "foreground_fx",
+              "x": 795,
+              "y": 840,
+              "scale": 0.9,
+              "anim": "splash_burst",
+              "startPct": 0.2,
+              "endPct": 0.8,
+              "shapes": [
+                {
+                  "kind": "circle",
+                  "cx": -100,
+                  "cy": 50,
+                  "r": 20,
+                  "fill": "#81D4FAAA"
+                },
+                {
+                  "kind": "circle",
+                  "cx": 120,
+                  "cy": -30,
+                  "r": 15,
+                  "fill": "#81D4FAAA"
+                },
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": 100,
+                  "r": 25,
+                  "fill": "#81D4FAAA"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:18:06.442Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_2",
+        "line": "Kok roti tawar lembut ini bisa berubah jadi sekeras batu begini sih?!",
+        "customVisual": {
+          "rig": "roti_keras_empuk",
+          "summary": "Meja dapur dengan garis efek benturan keras",
+          "primaryColor": "#D7CCC8",
+          "groups": [
+            {
+              "id": "impact_effect",
+              "layer": "beside_chars",
+              "x": 780,
+              "y": 950,
+              "scale": 1,
+              "anim": "shake_hard",
+              "startPct": 0.2,
+              "endPct": 0.9,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -100,
+                  "y": 0,
+                  "width": 200,
+                  "height": 20,
+                  "rx": 5,
+                  "fill": "#8D6E63",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "path",
+                  "d": "M-60,-40 L-80,-70 M60,-40 L80,-70 M0,-50 L0,-90",
+                  "fill": "none",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 8
+                },
+                {
+                  "kind": "text",
+                  "x": 0,
+                  "y": -110,
+                  "text": "DUAK! DUAK!",
+                  "fontSize": 40,
+                  "fill": "#FF0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:18:06.442Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_4",
+        "line": "Sinta coba paksa masukin toaster tapi malah macet dan berasap!",
+        "customVisual": {
+          "summary": "Toaster macet dan berasap",
+          "primaryColor": "#CFD8DC",
+          "groups": [
+            {
+              "id": "toaster_panic",
+              "layer": "beside_chars",
+              "x": 750,
+              "y": 900,
+              "scale": 1.2,
+              "anim": "shake_hard",
+              "startPct": 0.1,
+              "endPct": 1,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -80,
+                  "y": -60,
+                  "width": 160,
+                  "height": 120,
+                  "rx": 15,
+                  "fill": "#B0BEC5",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "rect",
+                  "x": -40,
+                  "y": -80,
+                  "width": 20,
+                  "height": 50,
+                  "rx": 5,
+                  "fill": "#5D4037",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "circle",
+                  "cx": 40,
+                  "cy": 0,
+                  "r": 15,
+                  "fill": "#FF5252",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                }
+              ]
+            },
+            {
+              "id": "smoke_fx",
+              "layer": "in_front_of_chars",
+              "x": 750,
+              "y": 800,
+              "scale": 1,
+              "anim": "steam_rise",
+              "startPct": 0.3,
+              "endPct": 1,
+              "shapes": [
+                {
+                  "kind": "circle",
+                  "cx": -20,
+                  "cy": 0,
+                  "r": 20,
+                  "fill": "#ECEFF1"
+                },
+                {
+                  "kind": "circle",
+                  "cx": 20,
+                  "cy": -20,
+                  "r": 25,
+                  "fill": "#CFD8DC"
+                },
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": -40,
+                  "r": 15,
+                  "fill": "#B0BEC5"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:18:06.442Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_5",
+        "line": "Pas mau dioles mentega, eh... pisaunya malah yang patah gara-gara rotinya terlalu perkasa!",
+        "customVisual": {
+          "summary": "Pisau mentega patah jadi dua",
+          "primaryColor": "#ECEFF1",
+          "groups": [
+            {
+              "id": "broken_knife",
+              "layer": "in_front_of_chars",
+              "x": 795,
+              "y": 840,
+              "scale": 0.9,
+              "anim": "pop_scale",
+              "startPct": 0.2,
+              "endPct": 0.8,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -100,
+                  "y": -10,
+                  "width": 80,
+                  "height": 20,
+                  "rx": 5,
+                  "fill": "#795548",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "path",
+                  "d": "M-20,-10 L40,30 L60,-20",
+                  "fill": "none",
+                  "stroke": "#B0BEC5",
+                  "strokeWidth": 10
+                },
+                {
+                  "kind": "path",
+                  "d": "M-20,-10 L-10,-30 M-20,10 L-30,30",
+                  "fill": "none",
+                  "stroke": "#FF0000",
+                  "strokeWidth": 4
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:18:06.442Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_8",
+        "line": "Suhu kulkas bikin pati roti kaku kayak semen kering yang kena angin panas!",
+        "customVisual": {
+          "rig": "banding_dua",
+          "summary": "Molekul pati renggang vs molekul kaku rapat",
+          "primaryColor": "#81C784",
+          "groups": [
+            {
+              "id": "pati_kaku",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 800,
+              "scale": 1,
+              "anim": "wipe_reveal",
+              "startPct": 0.1,
+              "endPct": 0.9,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -150,
+                  "y": -100,
+                  "width": 300,
+                  "height": 200,
+                  "rx": 20,
+                  "fill": "#E0E0E0",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "circle",
+                  "cx": -60,
+                  "cy": -30,
+                  "r": 20,
+                  "fill": "#9E9E9E",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "circle",
+                  "cx": -20,
+                  "cy": -30,
+                  "r": 20,
+                  "fill": "#9E9E9E",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "circle",
+                  "cx": 20,
+                  "cy": -30,
+                  "r": 20,
+                  "fill": "#9E9E9E",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "text",
+                  "x": 0,
+                  "y": 60,
+                  "text": "RETROGRADASI",
+                  "fontSize": 35,
+                  "fill": "#2A1D16"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:18:06.442Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_10",
+        "line": "Sinta akhirnya berhasil ngukus roti jadi empuk, tapi eh... rotinya kok hilang?!",
+        "customVisual": {
+          "rig": "roti_keras_empuk",
+          "summary": "Perbandingan roti tawar keras beku kulkas vs roti empuk suhu ruang"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:18:06.442Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_11",
+        "line": "<chuckle> Ternyata Galih udah pakai roti sisanya buat ganjal meja goyang karena dikira kayu!",
+        "customVisual": {
+          "summary": "Kaki meja makan diganjal roti cokelat keras",
+          "primaryColor": "#5D4037",
+          "groups": [
+            {
+              "id": "meja_ganjal",
+              "layer": "beside_chars",
+              "x": 250,
+              "y": 1200,
+              "scale": 1.3,
+              "anim": "float_bob",
+              "startPct": 0.2,
+              "endPct": 1,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -20,
+                  "y": -150,
+                  "width": 40,
+                  "height": 200,
+                  "rx": 0,
+                  "fill": "#8D6E63",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "rect",
+                  "x": -30,
+                  "y": 40,
+                  "width": 60,
+                  "height": 40,
+                  "rx": 8,
+                  "fill": "#6D4C41",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "line",
+                  "x1": -50,
+                  "y1": 80,
+                  "x2": 50,
+                  "y2": 80,
+                  "stroke": "#2A1D16"
+                },
+                {
+                  "kind": "text",
+                  "x": 80,
+                  "y": 30,
+                  "text": "ROTI = KAYU",
+                  "fontSize": 25,
+                  "fill": "#2E7D32"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:52:02.224Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_2",
+        "line": "Kok roti tawar lembut ini bisa berubah jadi sekeras batu begini sih?!",
+        "customVisual": {
+          "rig": "roti_keras_empuk",
+          "summary": "Perbandingan roti tawar keras beku kulkas vs roti empuk suhu ruang"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:52:02.224Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_4",
+        "line": "Sinta coba paksa masukin toaster tapi malah macet dan berasap!",
+        "customVisual": {
+          "summary": "Mesin toaster macet & berasap",
+          "primaryColor": "#90A4AE",
+          "groups": [
+            {
+              "id": "toaster_error",
+              "layer": "beside_chars",
+              "x": 770,
+              "y": 900,
+              "scale": 1.1,
+              "anim": "shake_hard",
+              "startPct": 0.1,
+              "endPct": 0.9,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -80,
+                  "y": -50,
+                  "width": 160,
+                  "height": 100,
+                  "rx": 15,
+                  "fill": "#CFD8DC",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "rect",
+                  "x": -60,
+                  "y": -65,
+                  "width": 120,
+                  "height": 20,
+                  "rx": 5,
+                  "fill": "#455A64",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "line",
+                  "x1": 0,
+                  "y1": -50,
+                  "x2": 0,
+                  "y2": -80,
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 10
+                }
+              ]
+            },
+            {
+              "id": "smoke_fx",
+              "layer": "in_front_of_chars",
+              "x": 770,
+              "y": 800,
+              "scale": 1,
+              "anim": "steam_rise",
+              "startPct": 0.3,
+              "endPct": 1,
+              "shapes": [
+                {
+                  "kind": "circle",
+                  "cx": -20,
+                  "cy": 0,
+                  "r": 30,
+                  "fill": "#37474F",
+                  "stroke": "none"
+                },
+                {
+                  "kind": "circle",
+                  "cx": 20,
+                  "cy": -20,
+                  "r": 25,
+                  "fill": "#546E7A",
+                  "stroke": "none"
+                },
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": -40,
+                  "r": 35,
+                  "fill": "#263238",
+                  "stroke": "none"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:52:02.224Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_5",
+        "line": "Pas mau dioles mentega, eh... pisaunya malah yang patah gara-gara rotinya terlalu perkasa!",
+        "customVisual": {
+          "summary": "Pisau patah kena roti sakti",
+          "primaryColor": "#BDBDBD",
+          "groups": [
+            {
+              "id": "broken_knife",
+              "layer": "in_front_of_chars",
+              "x": 795,
+              "y": 840,
+              "scale": 0.9,
+              "anim": "pop_scale",
+              "startPct": 0.1,
+              "endPct": 0.9,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -100,
+                  "y": 0,
+                  "width": 140,
+                  "height": 100,
+                  "rx": 10,
+                  "fill": "#D7CCC8",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "path",
+                  "d": "M0,-20 L80,-20 L60,10 L0,10 Z",
+                  "fill": "#E0E0E0",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "path",
+                  "d": "M90,-10 L140,20 L120,40 L80,10 Z",
+                  "fill": "#E0E0E0",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "text",
+                  "x": 0,
+                  "y": -60,
+                  "text": "KRAK!",
+                  "fontSize": 40,
+                  "fill": "#FF5252"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:52:02.224Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_8",
+        "line": "Suhu kulkas bikin pati roti kaku kayak semen kering yang kena angin panas!",
+        "customVisual": {
+          "rig": "none",
+          "summary": "Analogi Mikroskopis Pati Roti",
+          "primaryColor": "#A1887F",
+          "groups": [
+            {
+              "id": "starch_crystals",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 700,
+              "scale": 1,
+              "anim": "pulse_glow",
+              "startPct": 0,
+              "endPct": 1,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -200,
+                  "y": -150,
+                  "width": 400,
+                  "height": 300,
+                  "rx": 20,
+                  "fill": "#ECEFF1",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "polygon",
+                  "points": "-50,-50 50,-50 70,50 -70,50",
+                  "fill": "#90A4AE",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "polygon",
+                  "points": "40,-80 120,-80 140,0 60,0",
+                  "fill": "#90A4AE",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "text",
+                  "x": 0,
+                  "y": 120,
+                  "text": "STRUKTUR PATI KAKU",
+                  "fontSize": 24,
+                  "fill": "#263238"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:52:02.224Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_10",
+        "line": "Sinta akhirnya berhasil ngukus roti jadi empuk, tapi eh... rotinya kok hilang?!",
+        "customVisual": {
+          "rig": "roti_keras_empuk",
+          "summary": "Perbandingan roti tawar keras beku kulkas vs roti empuk suhu ruang"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T10:52:02.224Z",
+        "topicKey": "rahasia-roti-keras-kulkas",
+        "sceneId": "sc_11",
+        "line": "<chuckle> Ternyata Galih udah pakai roti sisanya buat ganjal meja goyang karena dikira kayu!",
+        "customVisual": {
+          "summary": "Roti jadi ganjal meja",
+          "primaryColor": "#795548",
+          "groups": [
+            {
+              "id": "table_wedge",
+              "layer": "foreground_fx",
+              "x": 540,
+              "y": 465,
+              "scale": 0.82,
+              "anim": "none",
+              "startPct": 0.2,
+              "endPct": 1,
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -30,
+                  "y": -150,
+                  "width": 60,
+                  "height": 150,
+                  "rx": 5,
+                  "fill": "#5D4037",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "rect",
+                  "x": -50,
+                  "y": 0,
+                  "width": 100,
+                  "height": 40,
+                  "rx": 5,
+                  "fill": "#FFE082",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "line",
+                  "x1": -40,
+                  "y1": 10,
+                  "x2": 40,
+                  "y2": 10,
+                  "stroke": "#BCAAA4",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "line",
+                  "x1": -40,
+                  "y1": 25,
+                  "x2": 40,
+                  "y2": 25,
+                  "stroke": "#BCAAA4",
+                  "strokeWidth": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T13:55:38.928Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_1",
+        "line": "Bar sinyal penuh empat kotak, tapi kok loading videonya muter terus kayak gasing!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Signal Bar Full + Loading Spinner",
+          "primaryColor": "#4CAF50",
+          "groups": [
+            {
+              "id": "signal_loading",
+              "layer": "beside_chars",
+              "x": 340,
+              "y": 395,
+              "scale": 0.88,
+              "anim": "spin",
+              "label": "FULL TAPI LOADIN",
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -60,
+                  "y": -40,
+                  "width": 120,
+                  "height": 80,
+                  "rx": 10,
+                  "fill": "#FFFFFF",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "rect",
+                  "x": -45,
+                  "y": 10,
+                  "width": 15,
+                  "height": 10,
+                  "rx": 2,
+                  "fill": "#4CAF50",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "rect",
+                  "x": -25,
+                  "y": 0,
+                  "width": 15,
+                  "height": 20,
+                  "rx": 2,
+                  "fill": "#4CAF50",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "rect",
+                  "x": -5,
+                  "y": -10,
+                  "width": 15,
+                  "height": 30,
+                  "rx": 2,
+                  "fill": "#4CAF50",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "rect",
+                  "x": 15,
+                  "y": -20,
+                  "width": 15,
+                  "height": 40,
+                  "rx": 2,
+                  "fill": "#4CAF50",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "path",
+                  "d": "M 40 -10 A 15 15 0 1 1 30 -20",
+                  "fill": "none",
+                  "stroke": "#FF5252",
+                  "strokeWidth": 6
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T13:55:38.928Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_4",
+        "line": "Ayo dong sinyal nyangkut, jangan malah nangkep lalat di atas sini!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Lalat terbang berputar",
+          "primaryColor": "#3E2723",
+          "groups": [
+            {
+              "id": "lalat_kocak",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 395,
+              "scale": 0.88,
+              "anim": "float_bob",
+              "label": "NYANGKUT LALAT",
+              "shapes": [
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": 0,
+                  "r": 8,
+                  "fill": "#3E2723",
+                  "stroke": "#000000",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "ellipse",
+                  "cx": -10,
+                  "cy": -5,
+                  "rx": 10,
+                  "ry": 6,
+                  "fill": "#E0E0E0",
+                  "opacity": 0.7
+                },
+                {
+                  "kind": "ellipse",
+                  "cx": 10,
+                  "cy": -5,
+                  "rx": 10,
+                  "ry": 6,
+                  "fill": "#E0E0E0",
+                  "opacity": 0.7
+                },
+                {
+                  "kind": "path",
+                  "d": "M -20 20 Q 0 40 20 20",
+                  "fill": "none",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2,
+                  "opacity": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T13:55:38.928Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_5",
+        "line": "Tapi Rama malah asik nonton film lancar jaya padahal sinyalnya cuma dua bar!",
+        "customVisual": {
+          "rig": "banding_dua",
+          "summary": "Perbandingan 4 Bar vs 2 Bar",
+          "primaryColor": "#2196F3",
+          "groups": []
+        }
+      },
+      {
+        "createdAt": "2026-11-24T13:55:38.928Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_7",
+        "line": "Rama bilang, bar itu cuma nunjukin jarak ke tower, bukan kecepatan lho!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "BTS Tower & Signal Wave",
+          "primaryColor": "#FF9800",
+          "groups": [
+            {
+              "id": "bts_tower",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 390,
+              "scale": 0.82,
+              "anim": "pulse_glow",
+              "label": "JARAK KE TOWER",
+              "shapes": [
+                {
+                  "kind": "path",
+                  "d": "M -10 50 L 0 -30 L 10 50 Z",
+                  "fill": "#757575",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": -35,
+                  "r": 8,
+                  "fill": "#D32F2F",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "path",
+                  "d": "M 15 -45 A 25 25 0 0 1 15 -25",
+                  "fill": "none",
+                  "stroke": "#FF9800",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "path",
+                  "d": "M 25 -55 A 40 40 0 0 1 25 -15",
+                  "fill": "none",
+                  "stroke": "#FF9800",
+                  "strokeWidth": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T13:55:38.928Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_8",
+        "line": "Ibarat jalan tol lebar, tapi macet parah karena sejuta mobil masuk barengan!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Jalan Tol Padat Merayap",
+          "primaryColor": "#F44336",
+          "groups": [
+            {
+              "id": "macet_total",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 395,
+              "scale": 0.88,
+              "anim": "shake_hard",
+              "label": "JALAN TOL MACET",
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -80,
+                  "y": -20,
+                  "width": 160,
+                  "height": 60,
+                  "rx": 5,
+                  "fill": "#607D8B",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "rect",
+                  "x": -60,
+                  "y": -10,
+                  "width": 35,
+                  "height": 20,
+                  "rx": 4,
+                  "fill": "#F44336",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "rect",
+                  "x": -15,
+                  "y": 0,
+                  "width": 35,
+                  "height": 20,
+                  "rx": 4,
+                  "fill": "#2196F3",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "rect",
+                  "x": 30,
+                  "y": -10,
+                  "width": 35,
+                  "height": 20,
+                  "rx": 4,
+                  "fill": "#FFEB3B",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "circle",
+                  "cx": 40,
+                  "cy": -30,
+                  "r": 10,
+                  "fill": "#E0E0E0",
+                  "opacity": 0.6
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T13:55:38.928Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_9",
+        "line": "Tetep aja gak bisa ngebut biarpun jalannya kelihatan lega dan luas!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Traffic Jam Overload View",
+          "primaryColor": "#B71C1C",
+          "groups": [
+            {
+              "id": "science_traffic",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 780,
+              "scale": 1,
+              "anim": "wipe_reveal",
+              "label": "TRAFFIC JAM!",
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -100,
+                  "y": -70,
+                  "width": 200,
+                  "height": 140,
+                  "rx": 0,
+                  "fill": "#424242",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "line",
+                  "x1": -100,
+                  "y1": -35,
+                  "x2": 100,
+                  "y2": -35,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "line",
+                  "x1": -100,
+                  "y1": 0,
+                  "x2": 100,
+                  "y2": 0,
+                  "stroke": "#FFD600",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "line",
+                  "x1": -100,
+                  "y1": 35,
+                  "x2": 100,
+                  "y2": 35,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "circle",
+                  "cx": -80,
+                  "cy": -50,
+                  "r": 5,
+                  "fill": "#FF5252"
+                },
+                {
+                  "kind": "circle",
+                  "cx": -50,
+                  "cy": -50,
+                  "r": 5,
+                  "fill": "#FF5252"
+                },
+                {
+                  "kind": "path",
+                  "d": "M -30 -30 L 30 30 M 30 -30 L -30 30",
+                  "fill": "none",
+                  "stroke": "#D32F2F",
+                  "strokeWidth": 10,
+                  "opacity": 0.8
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T13:55:38.928Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_11",
+        "line": "Yah, sisa kuota nol megabyte, pantesan aja dari tadi gagal terus! <chuckle>",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Notif Kuota Habis",
+          "primaryColor": "#D32F2F",
+          "groups": [
+            {
+              "id": "zero_quota",
+              "layer": "beside_chars",
+              "x": 360,
+              "y": 390,
+              "scale": 0.82,
+              "anim": "pop_scale",
+              "label": "FIX, MISKIN KUOT",
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -80,
+                  "y": -45,
+                  "width": 160,
+                  "height": 90,
+                  "rx": 12,
+                  "fill": "#FFFFFF",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "rect",
+                  "x": -80,
+                  "y": -45,
+                  "width": 160,
+                  "height": 30,
+                  "rx": 12,
+                  "fill": "#FFD54F",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "text",
+                  "x": -45,
+                  "y": -25,
+                  "text": "ATTENTION!",
+                  "fontSize": 14,
+                  "fill": "#2A1D16"
+                },
+                {
+                  "kind": "text",
+                  "x": -30,
+                  "y": 20,
+                  "text": "0 MB",
+                  "fontSize": 28,
+                  "fill": "#D32F2F"
+                },
+                {
+                  "kind": "circle",
+                  "cx": 55,
+                  "cy": 15,
+                  "r": 15,
+                  "fill": "#FFCDD2",
+                  "stroke": "#D32F2F",
+                  "strokeWidth": 2
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T14:38:51.456Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_1",
+        "line": "Bar sinyal penuh empat kotak, tapi kok loading videonya muter terus kayak gasing!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Signal Bar Full + Loading Spinner",
+          "primaryColor": "#4CAF50",
+          "groups": [
+            {
+              "id": "signal_loading",
+              "layer": "beside_chars",
+              "x": 340,
+              "y": 395,
+              "scale": 0.88,
+              "anim": "spin",
+              "label": "FULL TAPI LOADIN",
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -60,
+                  "y": -40,
+                  "width": 120,
+                  "height": 80,
+                  "rx": 10,
+                  "fill": "#FFFFFF",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "rect",
+                  "x": -45,
+                  "y": 10,
+                  "width": 15,
+                  "height": 10,
+                  "rx": 2,
+                  "fill": "#4CAF50",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "rect",
+                  "x": -25,
+                  "y": 0,
+                  "width": 15,
+                  "height": 20,
+                  "rx": 2,
+                  "fill": "#4CAF50",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "rect",
+                  "x": -5,
+                  "y": -10,
+                  "width": 15,
+                  "height": 30,
+                  "rx": 2,
+                  "fill": "#4CAF50",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "rect",
+                  "x": 15,
+                  "y": -20,
+                  "width": 15,
+                  "height": 40,
+                  "rx": 2,
+                  "fill": "#4CAF50",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "path",
+                  "d": "M 40 -10 A 15 15 0 1 1 30 -20",
+                  "fill": "none",
+                  "stroke": "#FF5252",
+                  "strokeWidth": 6
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T14:38:51.456Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_4",
+        "line": "Ayo dong sinyal nyangkut, jangan malah nangkep lalat di atas sini!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Lalat terbang berputar",
+          "primaryColor": "#3E2723",
+          "groups": [
+            {
+              "id": "lalat_kocak",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 395,
+              "scale": 0.88,
+              "anim": "float_bob",
+              "label": "NYANGKUT LALAT",
+              "shapes": [
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": 0,
+                  "r": 8,
+                  "fill": "#3E2723",
+                  "stroke": "#000000",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "ellipse",
+                  "cx": -10,
+                  "cy": -5,
+                  "rx": 10,
+                  "ry": 6,
+                  "fill": "#E0E0E0",
+                  "opacity": 0.7
+                },
+                {
+                  "kind": "ellipse",
+                  "cx": 10,
+                  "cy": -5,
+                  "rx": 10,
+                  "ry": 6,
+                  "fill": "#E0E0E0",
+                  "opacity": 0.7
+                },
+                {
+                  "kind": "path",
+                  "d": "M -20 20 Q 0 40 20 20",
+                  "fill": "none",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2,
+                  "opacity": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T14:38:51.456Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_5",
+        "line": "Tapi Rama malah asik nonton film lancar jaya padahal sinyalnya cuma dua bar!",
+        "customVisual": {
+          "rig": "banding_dua",
+          "summary": "Perbandingan 4 Bar vs 2 Bar",
+          "primaryColor": "#2196F3",
+          "groups": []
+        }
+      },
+      {
+        "createdAt": "2026-11-24T14:38:51.456Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_7",
+        "line": "Rama bilang, bar itu cuma nunjukin jarak ke tower, bukan kecepatan lho!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "BTS Tower & Signal Wave",
+          "primaryColor": "#FF9800",
+          "groups": [
+            {
+              "id": "bts_tower",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 390,
+              "scale": 0.82,
+              "anim": "pulse_glow",
+              "label": "JARAK KE TOWER",
+              "shapes": [
+                {
+                  "kind": "path",
+                  "d": "M -10 50 L 0 -30 L 10 50 Z",
+                  "fill": "#757575",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": -35,
+                  "r": 8,
+                  "fill": "#D32F2F",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "path",
+                  "d": "M 15 -45 A 25 25 0 0 1 15 -25",
+                  "fill": "none",
+                  "stroke": "#FF9800",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "path",
+                  "d": "M 25 -55 A 40 40 0 0 1 25 -15",
+                  "fill": "none",
+                  "stroke": "#FF9800",
+                  "strokeWidth": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T14:38:51.456Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_8",
+        "line": "Ibarat jalan tol lebar, tapi macet parah karena sejuta mobil masuk barengan!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Jalan Tol Padat Merayap",
+          "primaryColor": "#F44336",
+          "groups": [
+            {
+              "id": "macet_total",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 395,
+              "scale": 0.88,
+              "anim": "shake_hard",
+              "label": "JALAN TOL MACET",
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -80,
+                  "y": -20,
+                  "width": 160,
+                  "height": 60,
+                  "rx": 5,
+                  "fill": "#607D8B",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "rect",
+                  "x": -60,
+                  "y": -10,
+                  "width": 35,
+                  "height": 20,
+                  "rx": 4,
+                  "fill": "#F44336",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "rect",
+                  "x": -15,
+                  "y": 0,
+                  "width": 35,
+                  "height": 20,
+                  "rx": 4,
+                  "fill": "#2196F3",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "rect",
+                  "x": 30,
+                  "y": -10,
+                  "width": 35,
+                  "height": 20,
+                  "rx": 4,
+                  "fill": "#FFEB3B",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "circle",
+                  "cx": 40,
+                  "cy": -30,
+                  "r": 10,
+                  "fill": "#E0E0E0",
+                  "opacity": 0.6
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T14:38:51.456Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_9",
+        "line": "Tetep aja gak bisa ngebut biarpun jalannya kelihatan lega dan luas!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Traffic Jam Overload View",
+          "primaryColor": "#B71C1C",
+          "groups": [
+            {
+              "id": "science_traffic",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 780,
+              "scale": 1,
+              "anim": "wipe_reveal",
+              "label": "TRAFFIC JAM!",
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -100,
+                  "y": -70,
+                  "width": 200,
+                  "height": 140,
+                  "rx": 0,
+                  "fill": "#424242",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 6
+                },
+                {
+                  "kind": "line",
+                  "x1": -100,
+                  "y1": -35,
+                  "x2": 100,
+                  "y2": -35,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "line",
+                  "x1": -100,
+                  "y1": 0,
+                  "x2": 100,
+                  "y2": 0,
+                  "stroke": "#FFD600",
+                  "strokeWidth": 3
+                },
+                {
+                  "kind": "line",
+                  "x1": -100,
+                  "y1": 35,
+                  "x2": 100,
+                  "y2": 35,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 2
+                },
+                {
+                  "kind": "circle",
+                  "cx": -80,
+                  "cy": -50,
+                  "r": 5,
+                  "fill": "#FF5252"
+                },
+                {
+                  "kind": "circle",
+                  "cx": -50,
+                  "cy": -50,
+                  "r": 5,
+                  "fill": "#FF5252"
+                },
+                {
+                  "kind": "path",
+                  "d": "M -30 -30 L 30 30 M 30 -30 L -30 30",
+                  "fill": "none",
+                  "stroke": "#D32F2F",
+                  "strokeWidth": 10,
+                  "opacity": 0.8
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T14:38:51.456Z",
+        "topicKey": "rahasia-sinyal-hp-palsu",
+        "sceneId": "sc_11",
+        "line": "Yah, sisa kuota nol megabyte, pantesan aja dari tadi gagal terus!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Notif Kuota Habis",
+          "primaryColor": "#D32F2F",
+          "groups": [
+            {
+              "id": "zero_quota",
+              "layer": "beside_chars",
+              "x": 360,
+              "y": 390,
+              "scale": 0.82,
+              "anim": "pop_scale",
+              "label": "FIX, MISKIN KUOT",
+              "shapes": [
+                {
+                  "kind": "rect",
+                  "x": -80,
+                  "y": -45,
+                  "width": 160,
+                  "height": 90,
+                  "rx": 12,
+                  "fill": "#FFFFFF",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "rect",
+                  "x": -80,
+                  "y": -45,
+                  "width": 160,
+                  "height": 30,
+                  "rx": 12,
+                  "fill": "#FFD54F",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "text",
+                  "x": -45,
+                  "y": -25,
+                  "text": "ATTENTION!",
+                  "fontSize": 14,
+                  "fill": "#2A1D16"
+                },
+                {
+                  "kind": "text",
+                  "x": -30,
+                  "y": 20,
+                  "text": "0 MB",
+                  "fontSize": 28,
+                  "fill": "#D32F2F"
+                },
+                {
+                  "kind": "circle",
+                  "cx": 55,
+                  "cy": 15,
+                  "r": 15,
+                  "fill": "#FFCDD2",
+                  "stroke": "#D32F2F",
+                  "strokeWidth": 2
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-24T19:46:01.933Z",
+        "topicKey": "rahasia-lubang-tutup-panci",
+        "sceneId": "sc_1",
+        "line": "Waduh, tutup panci Kiki getar kencang banget, bunyinya nyaring kayak mau terbang ke bulan!",
+        "customVisual": {
+          "rig": "dapur_masak_panas",
+          "summary": "Panci bergetar hebat dengan uap.",
+          "groups": []
+        }
+      },
+      {
+        "createdAt": "2026-11-24T19:46:01.933Z",
+        "topicKey": "rahasia-lubang-tutup-panci",
+        "sceneId": "sc_2",
+        "line": "Yusuf malah nyeletuk santai, kayaknya panci kamu kesurupan deh, Kiki!",
+        "customVisual": {
+          "rig": "dapur_masak_panas",
+          "summary": "Panci masak mendidih dengan gelembung uap panas"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T19:46:01.933Z",
+        "topicKey": "rahasia-lubang-tutup-panci",
+        "sceneId": "sc_3",
+        "line": "Yusuf sok ide naruh cobek batu berat di atas tutup panci biar diam.",
+        "customVisual": {
+          "rig": "dapur_masak_panas",
+          "summary": "Panci masak mendidih dengan gelembung uap panas"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T19:46:01.933Z",
+        "topicKey": "rahasia-lubang-tutup-panci",
+        "sceneId": "sc_5",
+        "line": "Wulan datang, langsung angkat cobek itu dan nunjukin lubang kecil di tutup panci.",
+        "customVisual": {
+          "rig": "dapur_masak_panas",
+          "summary": "Panci masak mendidih dengan gelembung uap panas"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T19:46:01.933Z",
+        "topicKey": "rahasia-lubang-tutup-panci",
+        "sceneId": "sc_7",
+        "line": "Wulan jelasin, lubang ini jalur napas panci, namanya venting hole buat keluarin uap.",
+        "customVisual": {
+          "rig": "banding_dua",
+          "summary": "Perbandingan tekanan uap.",
+          "beforeLabel": "UAP TERJEBAK",
+          "afterLabel": "UAP LANCAR",
+          "groups": []
+        }
+      },
+      {
+        "createdAt": "2026-11-24T19:46:01.933Z",
+        "topicKey": "rahasia-lubang-tutup-panci",
+        "sceneId": "sc_9",
+        "line": "Tutup panci anteng setelah dibersihin, tapi Yusuf malah masukin sumpit ke lubang itu.",
+        "customVisual": {
+          "rig": "dapur_masak_panas",
+          "summary": "Panci masak mendidih dengan gelembung uap panas"
+        }
+      },
+      {
+        "createdAt": "2026-11-24T19:46:01.933Z",
+        "topicKey": "rahasia-lubang-tutup-panci",
+        "sceneId": "sc_10",
+        "line": "Gak sampai sedetik, sumpitnya meluncur jatuh cebur ke dalam kuah sop, aduh kotor semua deh!",
+        "customVisual": {
+          "rig": "dapur_masak_panas",
+          "summary": "Panci masak mendidih dengan gelembung uap panas"
+        }
+      },
+      {
+        "createdAt": "2026-11-25T09:54:28.983Z",
+        "topicKey": "misteri-lupa-di-depan-pintu",
+        "sceneId": "sc_4",
+        "line": "nginget apa yang mau diambilnya tadi, tapi malah makin gak jelas!",
+        "customVisual": {
+          "rig": "custom_vector",
+          "summary": "Ikon loading otak berputar",
+          "primaryColor": "#03A9F4",
+          "groups": [
+            {
+              "id": "loading_otak",
+              "layer": "beside_chars",
+              "x": 540,
+              "y": 395,
+              "scale": 0.88,
+              "anim": "float_bob",
+              "startPct": 0,
+              "endPct": 1,
+              "label": "LOADING...",
+              "shapes": [
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": 0,
+                  "r": 65,
+                  "fill": "#E1F5FE",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 5
+                },
+                {
+                  "kind": "ellipse",
+                  "cx": 0,
+                  "cy": 0,
+                  "rx": 45,
+                  "ry": 45,
+                  "fill": "#03A9F4",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 4
+                },
+                {
+                  "kind": "circle",
+                  "cx": 0,
+                  "cy": 0,
+                  "r": 20,
+                  "fill": "#FFFFFF",
+                  "stroke": "#2A1D16",
+                  "strokeWidth": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "createdAt": "2026-11-25T09:54:28.983Z",
+        "topicKey": "misteri-lupa-di-depan-pintu",
+        "sceneId": "sc_7",
+        "line": "Otak lo itu kayak ganti tab browser, pas pindah ruangan, file lama,",
+        "customVisual": {
+          "rig": "banding_dua",
+          "summary": "Perbandingan tab browser dan arsip memori",
+          "primaryColor": "#4CAF50",
+          "beforeLabel": "TAB AKTIF",
+          "afterLabel": "ARSIP LAMA",
+          "groups": []
+        }
+      }
+    ]
+  },
+  "media": {
+    "hasVideo": true,
+    "hasAudio": true,
+    "frameCount": 10,
+    "staticMediaMode": true
+  }
+}

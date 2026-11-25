@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Kantor Studio 3D AI — @sipintar_id</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Fullscreen 3D Three.js Viewport -->
+  <div id="studioCanvasHost" class="canvas-host"></div>
+
+  <!-- Floating 3D Projected Role Pills & Speech Bubbles -->
+  <div id="floatingTagsLayer" class="floating-tags"></div>
+
+  <!-- Top HUD Bar -->
+  <header class="hud-top">
+    <div class="brand-block">
+      <button id="rosterToggleBtn" class="btn-glass icon-only" title="Tampilkan/Sembunyikan Daftar Agent">☰</button>
+      <div>
+        <div class="brand-kicker">COZY 3D AI CREATIVE STUDIO · @SIPINTAR_ID</div>
+        <h1 id="studioProjectTitle">Memuat proyek studio...</h1>
+      </div>
+    </div>
+
+    <div class="cam-bar">
+      <button id="connModeBadge" class="conn-badge live" title="Klik untuk info link Online 24/7 & Tunnel">🟢 MEMUAT...</button>
+      <button id="camOverviewBtn" class="btn-glass">🏠 Ruang Utama</button>
+      <button id="camBoothBtn" class="btn-glass">🎙️ Bilik ON AIR</button>
+      <button id="camQcBtn" class="btn-glass">🖥️ Meja QC</button>
+      <button id="tourHandoffBtn" class="btn-glass accent-amber">🚶 Simulasi Handoff</button>
+      <button id="onlineInfoBtn" class="btn-glass">🌐 Akses Online</button>
+    </div>
+
+    <div class="kickoff-bar">
+      <input id="topicPromptInput" type="text" placeholder="Arahan cerita baru (opsional)..." />
+      <button id="kickOffBtn" class="btn-primary">🚀 Produksi Baru</button>
+      <button id="drawerToggleBtn" class="btn-glass accent-blue">📂 Buka Artefak & Video</button>
+    </div>
+  </header>
+
+  <!-- Left 7-Agent Roster Sidebar -->
+  <aside id="rosterSidebar" class="roster-sidebar">
+    <div class="sidebar-title">TIM 7 SPECIALIST AI AGENT (KLIK UNTUK FOKUS 3D)</div>
+    <div id="agentRosterList" class="roster-list"></div>
+  </aside>
+
+  <!-- Slide-in Artifact & Video/Audio/Frame Inspector -->
+  <section id="inspectorDrawer" class="inspector-drawer">
+    <div class="inspector-tabs">
+      <button class="tab-btn" data-tab="research">1. Riset</button>
+      <button class="tab-btn" data-tab="script">2. Naskah</button>
+      <button class="tab-btn" data-tab="direction">3. Koreografi</button>
+      <button class="tab-btn" data-tab="breakdown">4. Zona Aman Nadia</button>
+      <button class="tab-btn" data-tab="visuals">5. Visual Kirana</button>
+      <button class="tab-btn" data-tab="audio">6. Suara Arga</button>
+      <button class="tab-btn active" data-tab="qa">7. Video & Frame</button>
+      <button class="tab-btn" data-tab="logs">📜 Log</button>
+    </div>
+    <div id="inspectorBody" class="inspector-body">Memuat data studio...</div>
+  </section>
+
+  <!-- Bottom Kanban Pipeline Bar (inspired by The Delegation) -->
+  <footer class="kanban-bar">
+    <div class="kb-col">
+      <div class="kb-head">DALAM ANTREAN <span id="kbIdleCnt">0</span></div>
+      <div id="kbIdle" class="kb-chips"></div>
+    </div>
+    <div class="kb-col active-col">
+      <div class="kb-head">SEDANG DIKERJAKAN <span id="kbRunCnt">0</span></div>
+      <div id="kbRun" class="kb-chips"></div>
+    </div>
+    <div class="kb-col warn-col">
+      <div class="kb-head">PERLU REVISI <span id="kbRevCnt">0</span></div>
+      <div id="kbRev" class="kb-chips"></div>
+    </div>
+    <div class="kb-col done-col">
+      <div class="kb-head">SELESAI <span id="kbDoneCnt">0</span></div>
+      <div id="kbDone" class="kb-chips"></div>
+    </div>
+  </footer>
+
+  <!-- Hybrid Online / Cloud Info Modal -->
+  <div id="onlineModal" class="modal-backdrop">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>🌐 Akses Online dari Mana Saja (HP / Luar Jaringan)</h2>
+        <button id="closeOnlineModalBtn" class="btn-glass">✕</button>
+      </div>
+      <div id="onlineModalNotice" class="modal-notice" style="display:none"></div>
+      <div class="modal-section">
+        <label>1. Link Permanen 24/7 (GitHub Pages — Aktif Walau PC Mati):</label>
+        <div class="link-box"><a id="permPagesUrl" href="#" target="_blank" rel="noopener">-</a></div>
+      </div>
+      <div class="modal-section">
+        <label>2. Link Tunnel HTTPS Real-Time Aktif (Saat PC Menyala):</label>
+        <div id="liveTunnelUrlDisplay" class="link-box mono">-</div>
+      </div>
+      <div class="modal-section">
+        <label>Hubungkan Manual ke URL Tunnel (Opsional):</label>
+        <input id="customTunnelInput" type="url" placeholder="https://xxxx.trycloudflare.com" />
+      </div>
+      <div class="modal-section">
+        <label>GitHub Personal Access Token (Opsional — untuk trigger Cloud saat PC mati):</label>
+        <input id="ghPatInput" type="password" placeholder="ghp_xxxx (disimpan hanya di browser Anda)" />
+      </div>
+      <div class="modal-actions">
+        <button id="saveOnlineCfgBtn" class="btn-primary">Simpan & Hubungkan</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./bundle.js"></script>
+</body>
+</html>
